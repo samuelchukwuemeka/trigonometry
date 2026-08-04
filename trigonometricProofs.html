@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131335037-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131335037-1');
+    </script>
+
+    <script data-ad-client="ca-pub-9463984700780669" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <title>Trigonometric Proofs</title>
+    <meta name="msvalidate.01" content="3EEBD9006AA36E19F3501CC431FCA6CB" />
+    <meta name="google-site-verification" content="dWWImG59lcpKRGrhVSEW_j8U2jW1vMTG1_J2dUBrF4s" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Samuel Dominic Chukwuemeka also known as SamDom For Peace gives all the credit to our LORD GOD JESUS CHRIST. We are experts in trigonometric proofs." />
+
+    <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, 
+              math, mathematics, trigonometry, analytic trigonometry, trigonometric functions, 
+              angles, triangles, geometry, trigonometric identities, inverse trigonometric functions, 
+              sine function, inverse sine function, cosine function, inverse cosine function, 
+              tangent function, inverse tangent function, composite functions, trigonometric equations,
+              trigonometric proofs, trigonometric formulas, trigonometric graphs, trigonometric inequalities, 
+              right triangles, sine law, cosine law, initial side, terminal side, coordinate plane, angular measures,
+              side lengths, vertex, standard position, coterminal angles, quadrantal angles, reference angles,
+              unit circle, planar figures, three-dimensional figures, cofunction, quadrants, inverse cosecant function, 
+              inverse secant function, inverse cotangent function, trigonometric expressions, 
+              right triangles, area of triangle, bearings, distances, elevation, depression, angle of elevation, 
+              angle of depression, arc, length of arc, sector, segment, linear speed, angular speed, circular functions, 
+              area of sector, area of segment, base angle, vertex angle, apex angle" />
+
+    <link href="styles/trigonometric.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+
+<body>
+
+    <!-- Modal container: Dismiss with Escape Key -->
+    <div id="modal" class="modal">
+        <!-- Modal content that does not propagate the click event -->
+        <div class="modal-content">
+            <p>For More Questions, Solutions, and Explanations on Trigonometry</p>
+            <p>
+                Please visit:
+                <a href="https://examssuccess.github.io/" target="_blank">
+                    https://examssuccess.github.io/
+                </a>
+            </p>
+            <p>Press <strong>ESC</strong> to dismiss this message.</p>
+        </div>
+    </div>
+
+    <!-- Header/Home -->
+    <header class="w3-padding-64 green">
+
+        <!--
+            <div class="w3-content" id="solutionQuotes">
+                <p>
+                    <q>
+                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
+                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
+                        It is the <b>most powerful prayer</b>.
+                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                    </q> - Samuel Dominic Chukwuemeka 
+                </p>
+                <p id="messages12"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students.</b></q> - Samuel Chukwuemeka</p>
+            </div>
+            -->
+
+        <div class="w3-center">
+            <button class="quotes" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+        </div>
+        <div class="quotations w3-content" id="solutionQuotes">
+            <p>
+                <q>
+                    If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the
+                    <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our
+                        FATHER in Heaven prayer)</a> <br>
+                    It is the <b>most powerful prayer</b>.
+                    A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                </q> - Samuel Dominic Chukwuemeka
+            </p>
+            <p id="messages12"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+            <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students.</b></q> - Samuel
+                Chukwuemeka</p>
+        </div>
+    </header>
+
+    <br><br>
+
+    <!-- Page Content -->
+    <div class="w3-row w3-container">
+        <h1>Trigonometric Proofs / Prove Trigonometric Identities</h1>
+
+        <p class="w3-container">
+            <!-- Image in top left corner -->
+            <a href="https://trigonometry.appspot.com">
+                <img src="images/dominicchukwuemeka.jpg" alt="Samuel Dominic Chukwuemeka (SamDom For Peace)"
+                    class="image" title="Chukwuemeka Samuel Dominic aka SamDom For Peace">
+            </a>
+
+            <mark>For WASSCE Students</mark> <br>
+            Any question labeled WASCCE is a question for the WASCCE General Mathematics <br>
+            Any question labeled WASSCE:FM is a question for the WASSCE Further Mathematics/Elective Mathematics
+            <br><br>
+            <mark>For GCSE Students</mark> <br>
+            All work is shown to satisfy (and actually exceed) the minimum for awarding method marks. <br>
+            Calculators are allowed for some questions. Calculators are not allowed for some questions. <br><br>
+            <mark>For NSC Students</mark> <br>
+            <u>For the Questions:</u> <br>
+            Any space included in a number indicates a comma used to separate digits...separating multiples of three
+            digits from
+            behind. <br>
+            Any comma included in a number indicates a decimal point. <br>
+            <u>For the Solutions:</u> <br>
+            Decimals are used appropriately rather than commas <br>
+            Commas are used to separate digits appropriately. <br><br>
+
+            Prove each identity <br>
+            State the reason(s) as applicable <br>
+            Show all work <br><br>
+            <u>You may:</u> <br>
+            (1.) begin from the $LHS$ and end at the $RHS$ OR <br>
+            (2.) begin from the $RHS$ and end at the $LHS$ OR <br>
+            (3.) begin from the $LHS$ and end at a simplified answer, then begin from the $RHS$ and end at the same
+            simplified answer. The third option should only be used when the previous two options are exhausted. <br>
+            Use whichever side is easier to simplify. <br>
+            Work towards getting the result of the other side.
+        </p>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (1.) $\tan \gamma * \cos \gamma = \sin \gamma$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP1')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP1">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \tan \gamma * \cos \gamma \\[3ex]
+                    \tan \gamma = \dfrac{\sin \gamma}{\cos \gamma} ...Quotient\:\: Identity \\[5ex]
+                    \rightarrow \dfrac{\sin \gamma}{\cos \gamma} * \cos \gamma \\[5ex]
+                    = \sin \gamma \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (2.) $\sec \phi - \sin \phi \tan \phi = \cos \phi$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP2')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP2">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \sec \phi - \sin \phi \tan \phi \\[3ex]
+                    \sec \phi = \dfrac{1}{\cos \phi} ...Reciprocal\:\: Identity \\[5ex]
+                    \tan \phi = \dfrac{\sin \phi}{\cos \phi} ...Quotient\:\: Identity \\[5ex]
+                    \rightarrow \dfrac{1}{\cos \phi} - \sin \phi * \dfrac{\sin \phi}{\cos \phi} \\[5ex]
+                    = \dfrac{1}{\cos \phi} - \dfrac{\sin^2 \phi}{\cos \phi} \\[5ex]
+                    = \dfrac{1 - \sin^2 \phi}{\cos \phi} \\[5ex]
+                    \sin^2 \phi + \cos^2 \phi = 1 ...Pythagorean\:\: Identity \\[3ex]
+                    \cos^2 \phi = 1 - \sin^2 \phi \\[3ex]
+                    = \dfrac{\cos^2 \phi}{\cos \phi} \\[5ex]
+                    = \cos \phi \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (3.) $\cos \alpha(\cot \alpha + \tan \alpha) = \csc \alpha$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP3')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP3">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \cos \alpha(\cot \alpha + \tan \alpha) \\[3ex]
+                    \cot \alpha = \dfrac{\cos \alpha}{\sin \alpha} ...Quotient\:\: Identity \\[5ex]
+                    \tan \alpha = \dfrac{\sin \alpha}{\cos \alpha} ...Quotient\:\: Identity \\[5ex]
+                    = \cos \alpha\left(\dfrac{\cos \alpha}{\sin \alpha} + \dfrac{\sin \alpha}{\cos \alpha}\right)
+                    \\[5ex]
+                    = \cos\alpha\left(\dfrac{\cos\alpha\cos\alpha + \sin\alpha\sin\alpha}{\sin\alpha\cos\alpha}\right)
+                    \\[5ex]
+                    = \dfrac{\cos^2\alpha + \sin^2\alpha}{\sin\alpha} \\[5ex]
+                    \sin^2 \alpha + \cos^2 \alpha = 1 ...Pythagorean\:\: Identity \\[3ex]
+                    = \dfrac{1}{\sin \alpha} \\[5ex]
+                    = \csc \alpha \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (4.) $\tan \beta(\tan \beta + \cot \beta) = \sec^2 \beta$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP4')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP4">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \tan \beta(\tan \beta + \cot \beta) \\[3ex]
+                    \cot \beta = \dfrac{1}{\tan \beta} ... Reciprocal\:\: Identity \\[5ex]
+                    \rightarrow \tan \beta\left(\tan \beta + \dfrac{1}{\tan \beta}\right) \\[5ex]
+                    = \tan^2 \beta + 1 \\[3ex]
+                    = \sec^2 \beta ...Pythagorean\:\: Identity \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (5.) $\sin4\omega + \sin6\omega = \cot\omega(\cos4\omega - \cos6\omega)$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP5')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP5">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \sin4\omega + \sin6\omega \\[3ex]
+                    = 2\sin\left(\dfrac{4\omega + 6\omega}{2}\right)\cos\left(\dfrac{4\omega - 6\omega}{2}\right)
+                    ...Sum-to-Product\:\: Formula \\[5ex]
+                    = 2\sin\left(\dfrac{10\omega}{2}\right)\cos\left(\dfrac{-2\omega}{2}\right) \\[5ex]
+                    = 2\sin(5\omega)\cos(-\omega) \\[3ex]
+                    \cos(-\omega) = \cos(\omega) ... Even\:\: Identity \\[3ex]
+                    = 2\sin5\omega\cos\omega ... Simplified\:\: Result \\[3ex]
+                    \underline{RHS} \\[3ex]
+                    \cot\omega(\cos4\omega - \cos6\omega) \\[3ex]
+                    \underline{Multiplicand} \\[3ex]
+                    \cos4\omega - \cos6\omega \\[3ex]
+                    = -2\sin\left(\dfrac{4\omega + 6\omega}{2}\right)\sin\left(\dfrac{4\omega - 6\omega}{2}\right)
+                    ...Sum-to-Product\:\: Formula \\[5ex]
+                    = -2\sin\left(\dfrac{10\omega}{2}\right)\sin\left(\dfrac{-2\omega}{2}\right) \\[5ex]
+                    = -2\sin(5\omega)\sin(-\omega) \\[3ex]
+                    \sin(-\omega) = -\sin(\omega) ... Odd\:\: Identity \\[3ex]
+                    = -2 * \sin5\omega * -\sin\omega \\[3ex]
+                    = 2\sin5\omega\sin\omega \\[3ex]
+                    \rightarrow RHS = \cot\omega * 2\sin5\omega\sin\omega \\[3ex]
+                    \cot\omega = \dfrac{\cos\omega}{\sin\omega} ... Quotient\:\: Identity \\[5ex]
+                    RHS = \dfrac{\cos\omega}{\sin\omega} * 2\sin5\omega\sin\omega \\[5ex]
+                    RHS = \cos\omega * 2\sin5\omega \\[3ex]
+                    RHS = 2\sin5\omega\cos\omega ... Same\:\: Simplified\:\: Result
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (6.) $\csc^2(-\alpha) - 1 = \cot^2 \alpha$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP6')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP6">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \csc^2(-\alpha) - 1 \\[3ex]
+                    = \csc(-\alpha) * \csc(-\alpha) - 1 \\[3ex]
+                    \csc(-\alpha) = -\csc \alpha ...Odd\:\: Identity \\[3ex]
+                    \rightarrow -\csc \alpha * -\csc \alpha - 1 \\[3ex]
+                    = \csc^2 \alpha - 1 \\[3ex]
+                    1 + \cot^2 \alpha = \csc^2 \alpha ... Pythagorean\:\: Identity \\[3ex]
+                    \cot^2 \alpha = \csc^2 \alpha - 1 \\[3ex]
+                    = \cot^2 \alpha \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (7.) $\dfrac{\csc \theta + 1}{\csc \theta - 1} + \dfrac{1 - \csc \theta}{\csc \theta + 1} = 4\sec \theta
+                \tan \theta$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP7')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP7">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \dfrac{\csc \theta + 1}{\csc \theta - 1} + \dfrac{1 - \csc \theta}{\csc \theta + 1} \\[5ex]
+                    = \dfrac{(\csc \theta + 1)(\csc \theta + 1) + (1 - \csc \theta)(\csc \theta - 1)}{(\csc \theta -
+                    1)(\csc \theta + 1)} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    (\csc \theta + 1)(\csc \theta + 1) + (1 - \csc \theta)(\csc \theta - 1) \\[3ex]
+                    = \csc^2 \theta + 2\csc \theta + 1 + 2\csc \theta - 1 - \csc^2 \theta \\[3ex]
+                    = 4\csc \theta \\[3ex]
+                    \underline{Denominator} \\[3ex]
+                    (\csc \theta - 1)(\csc \theta + 1) = \csc^2 \theta - 1^2 ...Difference\:\: of\:\: Two\:\: Squares
+                    \\[3ex]
+                    = \csc^2 \theta - 1 \\[3ex]
+                    1 + \cot^2 \theta = \csc^2 \theta ... Pythagorean\:\: Identity \\[3ex]
+                    \cot^2 \theta = \csc^2 \theta - 1 \\[3ex]
+                    = \cot^2 \theta \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{4\csc \theta}{\cot^2 \theta} \\[5ex]
+                    = 4\csc \theta \div \cot^2 \theta \\[3ex]
+                    \csc \theta = \dfrac{1}{\sin \theta} ... Reciprocal\:\: Identity \\[5ex]
+                    \cot \theta = \dfrac{\cos \theta}{\sin \theta} ... Quotient\:\: Identity \\[5ex]
+                    = 4 * \dfrac{1}{\sin \theta} \div \left(\dfrac{\cos \theta}{\sin \theta}\right)^2 \\[5ex]
+                    = \dfrac{4}{\sin \theta} \div \dfrac{\cos^2 \theta}{\sin^2 \theta} \\[5ex]
+                    = \dfrac{4}{\sin \theta} * \dfrac{\sin^2 \theta}{\cos^2 \theta} \\[5ex]
+                    = \dfrac{4\sin \theta}{\cos^2 \theta} \\[5ex]
+                    = 4 * \dfrac{\sin \theta}{\cos \theta} * \dfrac{1}{\cos \theta} \\[5ex]
+                    \dfrac{\sin \theta}{\cos \theta} = \tan \theta ... Quotient\:\: Identity \\[5ex]
+                    \dfrac{1}{\cos \theta} = \sec \theta ... Reciprocal\:\: Identity \\[5ex]
+                    = 4 * \tan \theta * \sec \theta \\[3ex]
+                    = 4\sec \theta \tan \theta \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (8.) $2\sec \phi = \dfrac{1 - \sin \phi}{\cos \phi} + \dfrac{\cos \phi}{1 - \sin \phi}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP8')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP8">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{1 - \sin \phi}{\cos \phi} + \dfrac{\cos \phi}{1 - \sin \phi} \\[5ex]
+                    = \dfrac{(1 - \sin \phi)(1 - \sin \phi) + \cos \phi(\cos \phi)}{\cos \phi(1 - \sin \phi)} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    (1 - \sin \phi)(1 - \sin \phi) + \cos \phi(\cos \phi) \\[3ex]
+                    = 1 - 2\sin \phi + \sin^2 \phi + \cos^2 \phi \\[3ex]
+                    \sin^2 \phi + \cos^2 \phi = 1 ...Pythagorean\:\: Identity \\[3ex]
+                    = 1 - 2\sin \phi + 1 \\[3ex]
+                    = 2 - 2\sin \phi \\[3ex]
+                    = 2(1 - \sin \phi) \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{2(1 - \sin \phi)}{\cos \phi(1 - \sin \phi)} \\[5ex]
+                    = \dfrac{2}{\cos \phi} \\[5ex]
+                    = 2 * \dfrac{1}{\cos \phi} \\[5ex]
+                    \dfrac{1}{\cos \phi} = \sec \phi ...Reciprocal\:\: Identity \\[5ex]
+                    = 2 * \sec \phi \\[3ex]
+                    = 2\sec \phi \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (9.) $1 - \sin \beta \cos \beta = \dfrac{\sin^3 \beta + \cos^3 \beta}{\sin \beta + \cos \beta}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP9')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP9">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{\sin^3 \beta + \cos^3 \beta}{\sin \beta + \cos \beta} \\[5ex]
+                    \sin^3 \beta + \cos^3 \beta = (\sin \beta + \cos \beta)(\sin^2 \beta - \sin \beta \cos \beta +
+                    \cos^2 \beta) ...Sum \:\:of\:\: two\:\: cubes \\[3ex]
+                    = \dfrac{(\sin \beta + \cos \beta)(\sin^2 \beta - \sin \beta \cos \beta + \cos^2 \beta)}{\sin \beta
+                    + \cos \beta} \\[5ex]
+                    = \sin^2 \beta - \sin \beta \cos \beta + \cos^2 \beta \\[3ex]
+                    = \sin^2 \beta + \cos^2 \beta - \sin \beta \cos \beta \\[3ex]
+                    \sin^2 \beta + \cos^2 \beta = 1 ...Pythagorean\:\: Identity \\[3ex]
+                    = 1 - \sin \beta \cos \beta \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (10.) $\dfrac{\csc \alpha - 1}{\csc \alpha + 1} = \dfrac{1 - \sin \alpha}{1 + \sin \alpha}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP10')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP10">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \dfrac{\csc \alpha - 1}{\csc \alpha + 1} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    \csc \alpha - 1 \\[3ex]
+                    \csc \alpha = \dfrac{1}{\sin \alpha} ... Reciprocal\:\: Identity \\[5ex]
+                    = \dfrac{1}{\sin \alpha} - 1 \\[5ex]
+                    = \dfrac{1}{\sin \alpha} - \dfrac{\sin \alpha}{\sin \alpha} \\[5ex]
+                    = \dfrac{1 - \sin \alpha}{\sin \alpha} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    \csc \alpha + 1 \\[3ex]
+                    = \dfrac{1}{\sin \alpha} + 1 \\[5ex]
+                    = \dfrac{1}{\sin \alpha} + \dfrac{\sin \alpha}{\sin \alpha} \\[5ex]
+                    = \dfrac{1 + \sin \alpha}{\sin \alpha} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{1 - \sin \alpha}{\sin \alpha} \div \dfrac{1 + \sin \alpha}{\sin \alpha} \\[5ex]
+                    = \dfrac{1 - \sin \alpha}{\sin \alpha} * \dfrac{\sin \alpha}{1 + \sin \alpha} \\[5ex]
+                    = \dfrac{1 - \sin \alpha}{1 + \sin \alpha} \\[5ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (11.) $\sin(x + y) \sin(x - y) = \sin^2 x - \sin^2 y$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP11')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP11">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \sin(x + y) \sin(x - y) \\[3ex]
+                    \sin(x + y) = \sin x \cos y + \cos x \sin y ...Sum\:\: Identity \\[3ex]
+                    \sin(x - y) = \sin x \cos y - \cos x \sin y ...Difference\:\: Identity \\[3ex]
+                    = (\sin x \cos y + \cos x \sin y)(\sin x \cos y - \cos x \sin y) \\[3ex]
+                    = \sin^2 x \cos^2 y - \sin x \cos x \sin y \cos y + \sin x \cos x \sin y \cos y - \cos^2 x \sin^2 y
+                    \\[3ex]
+                    = \sin^2 x \cos^2 y - \cos^2 x \sin^2 y \\[3ex]
+                    \sin^2 x + \cos^2 x = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \cos^2 x = 1 - \sin^2 x \\[3ex]
+                    \sin^2 y + \cos^2 y = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \cos^2 y = 1 - \sin^2 y \\[3ex]
+                    = \sin^2 x(1 - \sin^2 y) - (1 - \sin^2 x)(\sin^2 y) \\[3ex]
+                    = \sin^2 x(1 - \sin^2 y) - \sin^2 y(1 - \sin^2 x) \\[3ex]
+                    = \sin^2 x - \sin^2 x \sin^2 y - \sin^2 y + \sin^2 y \sin^2 x \\[3ex]
+                    = \sin^2 x - \sin^2 y - \sin^2 x \sin^2 y + \sin^2 x \sin^2 y \\[3ex]
+                    = \sin^2 x - \sin^2 y \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (12.) $\sin \beta = 1 - \dfrac{\cos^2 \beta}{1 + \sin \beta}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP12')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP12">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    1 - \dfrac{\cos^2 \beta}{1 + \sin \beta} \\[5ex]
+                    = \dfrac{1 + \sin \beta}{1 + \sin \beta} - \dfrac{\cos^2 \beta}{1 + \sin \beta} \\[5ex]
+                    \dfrac{1 + \sin \beta - \cos^2 \beta}{1 + \sin \beta} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    1 + \sin \beta - \cos^2 \beta \\[3ex]
+                    \sin^2 \beta + \cos^2 \beta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \cos^2 \beta = 1 - \sin^2 \beta \\[3ex]
+                    = 1 + \sin \beta - (1 - \sin^2 \beta) \\[3ex]
+                    = 1 + \sin \beta - 1 + \sin^2 \beta \\[3ex]
+                    = \sin \beta + \sin^2 \beta \\[3ex]
+                    = \sin \beta(1 + \sin \beta) \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{\sin \beta(1 + \sin \beta)}{1 + \sin \beta} \\[5ex]
+                    = \sin \beta \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (13.) $\cos^2 \phi = \dfrac{\cos^2 \phi - \sin^2 \phi}{1 - \tan^2 \phi}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP13')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP13">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{\cos^2 \phi - \sin^2 \phi}{1 - \tan^2 \phi} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    1 - \tan^2 \phi \\[3ex]
+                    \tan \phi = \dfrac{\sin \phi}{\cos \phi} ... Quotient\:\: Identity \\[5ex]
+                    \tan^2 \phi = \dfrac{\sin^2 \phi}{\cos^2 \phi} \\[5ex]
+                    = 1 - \dfrac{\sin^2 \phi}{\cos^2 \phi} \\[5ex]
+                    = \dfrac{\cos^2 \phi}{\cos^2 \phi} - \dfrac{\sin^2 \phi}{\cos^2 \phi} \\[5ex]
+                    = \dfrac{\cos^2 \phi - \sin^2 \phi}{\cos^2 \phi} \\[5ex]
+                    \underline{RHS} \\[3ex]
+                    \dfrac{\cos^2 \phi - \sin^2 \phi}{1 - \tan^2 \phi} \\[5ex]
+                    = (\cos^2 \phi - \sin^2 \phi) \div \dfrac{\cos^2 \phi - \sin^2 \phi}{\cos^2 \phi} \\[5ex]
+                    = (\cos^2 \phi - \sin^2 \phi) * \dfrac{\cos^2 \phi}{\cos^2 \phi - \sin^2 \phi} \\[5ex]
+                    = \cos^2 \phi \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (14.) $\dfrac{\sec \theta - 1}{\tan \theta} = \dfrac{\tan \theta}{\sec \theta + 1}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP14')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP14">
+                    <br>
+                    This is a bit tricky. <br>
+                    Let us try to simplify both sides and see if we can get the same simplified result. <br><br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \dfrac{\sec \theta - 1}{\tan \theta} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    \sec \theta - 1 \\[3ex]
+                    \sec \theta = \dfrac{1}{\cos \theta} ... Reciprocal\:\: Identity \\[5ex]
+                    = \dfrac{1}{\cos \theta} - 1 \\[5ex]
+                    = \dfrac{1}{\cos \theta} - \dfrac{\cos \theta}{\cos \theta} \\[5ex]
+                    = \dfrac{1 - \cos \theta}{\cos \theta} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    \tan \theta \\[3ex]
+                    \tan \theta = \dfrac{\sin \theta}{\cos \theta} ... Quotient\:\: Identity \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{1 - \cos \theta}{\cos \theta} \div \dfrac{\sin \theta}{\cos \theta} \\[5ex]
+                    = \dfrac{1 - \cos \theta}{\cos \theta} * \dfrac{\cos \theta}{\sin \theta} \\[5ex]
+                    = \dfrac{1 - \cos \theta}{\sin \theta} ... simplified\:\: result \\[5ex]
+                    \underline{RHS} \\[3ex]
+                    \dfrac{\tan \theta}{\sec \theta + 1} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    \sec \theta + 1 = \dfrac{1}{\cos \theta} + 1 \\[5ex]
+                    = \dfrac{1}{\cos \theta} + \dfrac{\cos \theta}{\cos \theta} \\[5ex]
+                    = \dfrac{1 + \cos \theta}{\cos \theta} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \tan \theta \div (\sec \theta + 1) \\[3ex]
+                    = \dfrac{\sin \theta}{\cos \theta} \div \dfrac{1 + \cos \theta}{\cos \theta} \\[5ex]
+                    = \dfrac{\sin \theta}{\cos \theta} * \dfrac{\cos \theta}{1 + \cos \theta} \\[5ex]
+                    = \dfrac{\sin \theta}{1 + \cos \theta} ... simplified\:\: result \\[5ex]
+                    $
+                    But, the simplified results are not the same. <br>
+                    So, we have to come up with another technique. <br>
+                    Let us think about multiplying the numerator and denominator by "something". <br>
+                    We just need to get the other side. <br>
+                    Let us multiply the numerator and denominator of the $LHS$ by $\sec \theta + 1$ <br><br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \dfrac{\sec \theta - 1}{\tan \theta} \\[5ex]
+                    \underline{New\:\: LHS} \\[3ex]
+                    \dfrac{(\sec \theta + 1)(\sec \theta - 1)}{(\sec \theta + 1)(\tan \theta)} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    (\sec \theta + 1)(\sec \theta - 1) = \sec^2 \theta - 1^2 ... Diff. \:\:of\:\: Two\:\: Squares
+                    \\[3ex]
+                    = \sec^2 \theta - 1 \\[3ex]
+                    1 + \tan^2 \theta = \sec^2 \theta ... Pythagorean\:\: Identity \\[3ex]
+                    \tan^2 \theta = \sec^2 \theta - 1 \\[3ex]
+                    = \tan^2 \theta \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{\tan^2 \theta}{(\sec \theta + 1)(\tan \theta)} \\[5ex]
+                    = \dfrac{\tan \theta}{\sec \theta + 1} \\[5ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (15.) $\dfrac{1 - \sin\theta}{1 + \sin\theta} = (\sec\theta - \tan\theta)^2$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP15')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP15">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    (\sec\theta - \tan\theta)^2 \\[3ex]
+                    = (\sec\theta - \tan\theta)(\sec\theta - \tan\theta) \\[3ex]
+                    = \sec^2\theta - \tan\theta\sec\theta - \tan\theta\sec\theta + \tan^2\theta \\[3ex]
+                    = \sec^2\theta - 2\tan\theta\sec\theta + \tan^2\theta \\[3ex]
+                    \tan\theta = \dfrac{\sin\theta}{\cos\theta} ...Quotient\:\: Identity \\[5ex]
+                    \sec\theta = \dfrac{1}{\cos\theta} ...Reciprocal\:\: Identity \\[5ex]
+                    \sec^c\theta = \left(\dfrac{1}{\cos\theta}\right)^2 = \dfrac{1^2}{\cos^2\theta} =
+                    \dfrac{1}{\cos^2\theta} \\[5ex]
+                    2\tan\theta\sec\theta = 2 * \dfrac{\sin\theta}{\cos\theta} * \dfrac{1}{\cos\theta} =
+                    \dfrac{2\sin\theta}{\cos^2\theta} \\[5ex]
+                    \tan^2\theta = \left(\dfrac{\sin\theta}{\cos\theta}\right)^2 = \dfrac{\sin^2\theta}{\cos^2\theta}
+                    \\[5ex]
+                    = \dfrac{1}{\cos^2\theta} - \dfrac{2\sin\theta}{\cos^2\theta} + \dfrac{\sin^2\theta}{\cos^2\theta}
+                    \\[5ex]
+                    = \dfrac{1 - 2\sin\theta + \sin^2\theta}{\cos^2\theta} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    1 - 2\sin\theta + \sin^2\theta \\[3ex]
+                    = \sin^2\theta - 2\sin\theta + 1 ...Quadratic\:\: in\:\: \sin\theta \\[3ex]
+                    Let\:\: p = \sin\theta \\[3ex]
+                    = p^2 - 2p + 1 \\[3ex]
+                    = (p - 1)(p - 1) \\[3ex]
+                    Substitute\:\: back \\[3ex]
+                    = (\sin\theta - 1)(\sin\theta - 1) \\[3ex]
+                    \underline{Denominator} \\[3ex]
+                    \cos^2\theta \\[3ex]
+                    \sin^2\theta + \cos^2\theta = 1 ... Pythagorean\:\: Idenitity \\[3ex]
+                    = 1 - \sin^2\theta \\[3ex]
+                    = 1^2 - \sin^2\theta = (1 + \sin\theta)(1 - \sin\theta) ... Difference\:\: of\:\: Two\:\: Squares
+                    \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    \dfrac{(\sin\theta - 1)(\sin\theta - 1)}{(1 + \sin\theta)(1 - \sin\theta)} \\[5ex]
+                    $
+                    We need to get to the $LHS$ <br>
+                    We have to do some acceptable arithmetic operations/manipulations &#x263A; <br>
+                    Multiply both the numerator and the denominator by $-1$ <br><br>
+                    $
+                    \underline{Numerator} \\[3ex]
+                    (\sin\theta - 1)(\sin\theta - 1) \\[3ex]
+                    -1 * (\sin\theta - 1) * (\sin\theta - 1) \\[3ex]
+                    = (-\sin\theta + 1)(\sin\theta - 1) \\[3ex]
+                    = (1 - \sin\theta)(\sin\theta - 1) \\[3ex]
+                    \underline{Denominator} \\[3ex]
+                    (1 + \sin\theta)(1 - \sin\theta) \\[3ex]
+                    -1 * (1 + \sin\theta) * (1 - \sin\theta) \\[3ex]
+                    = -1 * (1 - \sin\theta) * (1 + \sin\theta) \\[3ex]
+                    = (-1 + \sin\theta)(1 + \sin\theta) \\[3ex]
+                    = (\sin\theta - 1)(1 + \sin\theta) \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    \dfrac{(1 - \sin\theta)(\sin\theta - 1)}{(\sin\theta - 1)(1 + \sin\theta)} \\[5ex]
+                    = \dfrac{1 - \sin\theta}{1 + \sin\theta} \\[5ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (16.) $\dfrac{2\tan\theta}{1 + \tan^2\theta} = \sin2\theta$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP16')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP16">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \dfrac{2\tan\theta}{1 + \tan^2\theta} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    2\tan\theta \\[3ex]
+                    \tan\theta = \dfrac{\sin\theta}{\cos\theta} ... Quotient\:\: Identity \\[5ex]
+                    = 2 * \dfrac{\sin\theta}{\cos\theta} = \dfrac{2\sin\theta}{\cos\theta} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    1 + \tan^2\theta \\[3ex]
+                    = \sec^2\theta ... Pythagorean\:\: Identity \\[3ex]
+                    \sec\theta = \dfrac{1}{\cos\theta} ... Reciprocal\:\: Identity \\[5ex]
+                    \sec^2\theta = \left(\dfrac{1}{\cos\theta}\right)^2 = \dfrac{1^2}{\cos^2\theta} =
+                    \dfrac{1}{\cos^2\theta} \\[5ex]
+                    = \dfrac{1}{\cos^2\theta} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{2\sin\theta}{\cos\theta} \div \dfrac{1}{\cos^2\theta} \\[5ex]
+                    = \dfrac{2\sin\theta}{\cos\theta} * \dfrac{\cos^2\theta}{1} \\[5ex]
+                    = 2\sin\theta\cos\theta \\[3ex]
+                    = \sin2\theta ... Double-Angle\:\: Formula \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (17.) $\dfrac{1 + \sin\theta}{1 - \sin\theta} = (\sec\theta + \tan\theta)^2$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP17')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP17">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    (\sec\theta + \tan\theta)^2 \\[3ex]
+                    = (\sec\theta + \tan\theta)(\sec\theta + \tan\theta) \\[3ex]
+                    = \sec^2\theta + \tan\theta\sec\theta + \tan\theta\sec\theta + \tan^2\theta \\[3ex]
+                    = \sec^2\theta + 2\tan\theta\sec\theta + \tan^2\theta \\[3ex]
+                    \tan\theta = \dfrac{\sin\theta}{\cos\theta} ...Quotient\:\: Identity \\[5ex]
+                    \sec\theta = \dfrac{1}{\cos\theta} ...Reciprocal\:\: Identity \\[5ex]
+                    \sec^c\theta = \left(\dfrac{1}{\cos\theta}\right)^2 = \dfrac{1^2}{\cos^2\theta} =
+                    \dfrac{1}{\cos^2\theta} \\[5ex]
+                    2\tan\theta\sec\theta = 2 * \dfrac{\sin\theta}{\cos\theta} * \dfrac{1}{\cos\theta} =
+                    \dfrac{2\sin\theta}{\cos^2\theta} \\[5ex]
+                    \tan^2\theta = \left(\dfrac{\sin\theta}{\cos\theta}\right)^2 = \dfrac{\sin^2\theta}{\cos^2\theta}
+                    \\[5ex]
+                    = \dfrac{1}{\cos^2\theta} + \dfrac{2\sin\theta}{\cos^2\theta} + \dfrac{\sin^2\theta}{\cos^2\theta}
+                    \\[5ex]
+                    = \dfrac{1 + 2\sin\theta + \sin^2\theta}{\cos^2\theta} \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    1 + 2\sin\theta + \sin^2\theta \\[3ex]
+                    = \sin^2\theta - 2\sin\theta + 1 ...Quadratic\:\: in\:\: \sin\theta \\[3ex]
+                    Let\:\: p = \sin\theta \\[3ex]
+                    = p^2 + 2p + 1 \\[3ex]
+                    = (p + 1)(p + 1) \\[3ex]
+                    Substitute\:\: back \\[3ex]
+                    = (\sin\theta + 1)(\sin\theta + 1) \\[3ex]
+                    = (1 + \sin\theta)(1 + \sin\theta) \\[3ex]
+                    \underline{Denominator} \\[3ex]
+                    \cos^2\theta \\[3ex]
+                    \sin^2\theta + \cos^2\theta = 1 ... Pythagorean\:\: Idenitity \\[3ex]
+                    = 1 - \sin^2\theta \\[3ex]
+                    = 1^2 - \sin^2\theta = (1 + \sin\theta)(1 - \sin\theta) ... Difference\:\: of\:\: Two\:\: Squares
+                    \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    \dfrac{(1 + \sin\theta)(1 + \sin\theta)}{(1 + \sin\theta)(1 - \sin\theta)} \\[5ex]
+                    = \dfrac{1 + \sin\theta}{1 - \sin\theta} \\[5ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (18.) $\tan\theta + \cot\theta = \dfrac{\tan\theta}{\sin^2\theta}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP18')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP18">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{\tan\theta}{\sin^2\theta} \\[5ex]
+                    \tan\theta = \dfrac{\sin\theta}{\cos\theta} ... Quotient\:\: Identity \\[5ex]
+                    = \dfrac{\sin\theta}{\cos\theta} \div \sin^2\theta \\[5ex]
+                    = \dfrac{\sin\theta}{\cos\theta} * \dfrac{1}{\sin^2\theta} \\[5ex]
+                    = \dfrac{1}{\cos\theta\sin\theta} \\[5ex]
+                    = \dfrac{1}{\cos\theta} * \dfrac{1}{\sin\theta} \\[5ex]
+                    = \sec\theta\csc\theta...simplified\:\: result \\[3ex]
+                    \underline{LHS} \\[3ex]
+                    \tan\theta + \cot\theta \\[3ex]
+                    \cot\theta = \dfrac{\cos\theta}{\sin\theta} ... Quotient\:\: Identity \\[5ex]
+                    = \dfrac{\sin\theta}{\cos\theta} + \dfrac{\cos\theta}{\sin\theta} \\[5ex]
+                    = \dfrac{\sin\theta(\sin\theta) + \cos\theta(\cos\theta)}{\cos\theta\sin\theta} \\[5ex]
+                    = \dfrac{\sin^2\theta + \cos^2\theta}{\cos\theta\sin\theta} \\[5ex]
+                    \sin^2\theta + \cos^2\theta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    = \dfrac{1}{\cos\theta\sin\theta} \\[5ex]
+                    = \dfrac{1}{\cos\theta} * \dfrac{1}{\sin\theta} \\[5ex]
+                    = \sec\theta\csc\theta...same\:\: simplified\:\: result
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (19.) $\cos^4\theta - \sin^4\theta = \cos2\theta$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP19')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP19">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \cos^4\theta - \sin^4\theta \\[3ex]
+                    = (\cos^2\theta)^2 - (\sin^2\theta)^2 \\[3ex]
+                    = (\cos^2\theta + \sin^2\theta)(\cos^2\theta - \sin^2\theta) ... Difference\:\: of\:\: Two\:\:
+                    Squares \\[3ex]
+                    \cos^2\theta + \sin^2\theta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    = 1 * \cos^2\theta - \sin^2\theta \\[3ex]
+                    = \cos^2\theta - \sin^2\theta \\[3ex]
+                    = \cos2\theta ... Double-Angle\:\: Identity \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (20.) $\sin^2\theta\tan^2\theta = \tan^2\theta - \sin^2\theta$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP20')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP20">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \sin^2\theta\tan^2\theta \\[3ex]
+                    \sin^2\theta + \cos^2\theta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \rightarrow \sin^2\theta = 1 - \cos^2\theta \\[3ex]
+                    = (1 - \cos^2\theta) * \tan^2\theta \\[3ex]
+                    = \tan^2\theta(1 - \cos^2\theta) \\[3ex]
+                    = \tan^2\theta - \tan^2\theta\cos^2\theta \\[3ex]
+                    \tan\theta = \dfrac{\sin\theta}{\cos\theta} ... Quotient\:\: Identity \\[5ex]
+                    \tan^2\theta = \left(\dfrac{\sin\theta}{\cos\theta}\right)^2 = \dfrac{\sin^2\theta}{\cos^2\theta}
+                    \\[5ex]
+                    = \tan^2\theta - \dfrac{\sin^2\theta}{\cos^2\theta} * \cos^2\theta \\[5ex]
+                    = \tan^2\theta - \sin^2\theta \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <!-- Top of the Page -->
+    <div class="w3-container" style="position:relative">
+        <a href="https://trigonometry.appspot.com/trigonometricProofs.html"
+            class="w3-button w3-xlarge w3-circle w3-green" style="position:absolute;top:-70px;right:24px">Top</a>
+    </div>
+    <br><br><br><br>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (21.) If $\tan\alpha = p + 1$ and $\tan\beta = p - 1$, show that $2\cot(\alpha - \beta) = p^2$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP21')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP21">
+                    <br>
+                    $
+                    \tan\alpha = p + 1 \\[3ex]
+                    \tan\beta = p - 1 \\[3ex]
+                    Show\:\: that\:\: 2\cot(\alpha - \beta) = p^2 \\[3ex]
+                    \underline{LHS} \\[3ex]
+                    2\cot(\alpha - \beta) \\[3ex]
+                    \cot(\alpha - \beta) = \dfrac{1}{\tan(\alpha - \beta)} ... Reciprocal\:\: Identity \\[5ex]
+                    \tan(\alpha - \beta) = \dfrac{\tan\alpha - \tan\beta}{1 + \tan\alpha\tan\beta} ... Difference\:\:
+                    Formula \\[5ex]
+                    \tan(\alpha - \beta) = \dfrac{(p + 1) - (p - 1)}{1 + [(p + 1)(p - 1)]} \\[5ex]
+                    (p + 1)(p - 1) = p^2 - 1^2 ... Difference\:\: of\:\: Two\:\: Squares \\[3ex]
+                    \tan(\alpha - \beta) = \dfrac{p + 1 - p + 1}{1 + (p^2 - 1^2)} \\[5ex]
+                    \tan(\alpha - \beta) = \dfrac{2}{1 + p^2 - 1} \\[5ex]
+                    \tan(\alpha - \beta) = \dfrac{2}{p^2} \\[5ex]
+                    \dfrac{1}{\tan(\alpha - \beta)} = 1 \div \tan(\alpha - \beta) \\[3ex]
+                    \dfrac{1}{\tan(\alpha - \beta)} = 1 \div \dfrac{2}{p^2} \\[5ex]
+                    \dfrac{1}{\tan(\alpha - \beta)} = 1 * \dfrac{p^2}{2} \\[5ex]
+                    \dfrac{1}{\tan(\alpha - \beta)} = \dfrac{p^2}{2} \\[5ex]
+                    = 2 * \cot(\alpha - \beta) \\[3ex]
+                    = 2 * \dfrac{1}{\tan(\alpha - \beta)} \\[5ex]
+                    = 2 * \dfrac{p^2}{2} \\[5ex]
+                    = p^2 \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (22.) $\dfrac{\tan\beta}{\tan\beta - 1} = \dfrac{1}{1 - \cot\beta}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP22')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP22">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{1}{1 - \cot\beta} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    1 - \cot\beta \\[3ex]
+                    \cot\beta = \dfrac{1}{\tan\beta} ... Reciprocal\:\: Identity \\[5ex]
+                    = 1 - \dfrac{1}{\tan\beta} \\[5ex]
+                    = \dfrac{\tan\beta}{\tan\beta} - \dfrac{1}{\tan\beta} \\[5ex]
+                    = \dfrac{\tan\beta - 1}{\tan\beta} \\[5ex]
+                    \rightarrow \dfrac{1}{1 - \cot\beta} \\[5ex]
+                    = 1 \div (1 - \cot\beta) \\[3ex]
+                    = 1 \div \dfrac{\tan\beta - 1}{\tan\beta} \\[5ex]
+                    = 1 * \dfrac{\tan\beta}{\tan\beta - 1} \\[5ex]
+                    = \dfrac{\tan\beta}{\tan\beta - 1} \\[5ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (23.) $1 - \sin^4\theta = 2\sin^2\theta\cos^2\theta + \cos^4\theta$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP23')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP23">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    2\sin^2\theta\cos^2\theta + \cos^4\theta \\[3ex]
+                    = \cos^2\theta(2\sin^2\theta + \cos^2\theta) \\[3ex]
+                    \sin^2\theta + \cos^2\theta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \rightarrow \cos^2\theta = 1 - \sin^2\theta \\[3ex]
+                    = (1 - \sin^2\theta)[2\sin^2\theta + (1 - \sin^2\theta)] \\[3ex]
+                    = (1 - \sin^2\theta)(2\sin^2\theta + 1 - \sin^2\theta) \\[3ex]
+                    = (1 - \sin^2\theta)(1 + \sin^2\theta) \\[3ex]
+                    = 1^2 - (\sin^2\theta)^2 ... Difference\:\: of\:\: Two\:\: Squares \\[3ex]
+                    = 1 - \sin^4\theta \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (24.) $-\cot\theta + \dfrac{\sin\theta}{1 - \cos\theta} = \csc\theta$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP24')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP24">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    -\cot\theta + \dfrac{\sin\theta}{1 - \cos\theta} \\[5ex]
+                    \cot\theta = \dfrac{\cos\theta}{\sin\theta} \\[5ex]
+                    = \dfrac{\cos\theta}{\sin\theta} + \dfrac{\sin\theta}{1 - \cos\theta} \\[5ex]
+                    = \dfrac{-\cos\theta(1 - \cos\theta) + \sin\theta(\sin\theta)}{\sin\theta(1 - \cos\theta)} \\[5ex]
+                    = \dfrac{-\cos\theta + \cos^2\theta + \sin^2\theta}{\sin\theta(1 - \cos\theta)} \\[5ex]
+                    \cos^2\theta + \sin^2\theta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    = \dfrac{-\cos\theta + 1}{\sin\theta(1 - \cos\theta)} \\[5ex]
+                    = \dfrac{1 - \cos\theta}{\sin\theta(1 - \cos\theta)} \\[5ex]
+                    = \dfrac{1}{\sin\theta} \\[5ex]
+                    = \csc\theta ... Reciprocal\:\: Identity \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (25.) $\log(\cos2\theta) = \log(\cos\theta - \sin\theta) + \log(\cos\theta + \sin\theta)$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP25')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP25">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \log(\cos\theta - \sin\theta) + \log(\cos\theta + \sin\theta) \\[3ex]
+                    = \log[(\cos\theta - \sin\theta)(\cos\theta + \sin\theta)] ...Law\:\: 1...Log \\[3ex]
+                    (\cos\theta - \sin\theta)(\cos\theta + \sin\theta) = \cos^2\theta - \sin^2\theta ... Difference\:\:
+                    of\:\: Two\:\: Squares \\[3ex]
+                    \cos^2\theta - \sin^2\theta = \cos2\theta ... Double-Angle\:\: Formula \\[3ex]
+                    = \log(\cos2\theta) \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (26.) $\ln|\sec\theta| = -\ln|\cos\theta|$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP26')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP26">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \ln|\sec\theta| \\[3ex]
+                    = \dfrac{1}{\ln|\cos\theta|} ... Reciprocal\:\: Identity \\[5ex]
+                    = \left(\ln|\cos\theta|\right)^{-1} ... Law\:\: 6...Exp \\[3ex]
+                    = -1 * \ln|\cos\theta| ... Law\:\: 5 ...Log \\[3ex]
+                    = -\ln|\cos\theta| \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (27.) $\ln|1 + \cos\beta| + \ln|1 - \cos\beta| = 2\ln|\sin\beta|$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP27')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP27">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \ln|1 + \cos\beta| + \ln|1 - \cos\beta| \\[3ex]
+                    = \ln\left[|1 + \cos\beta| * |1 - \cos\beta|\right] ...Law\:\: 1...Log \\[3ex]
+                    |1 + \cos\beta| * |1 - \cos\beta| = |(1 + \cos\beta) * (1 - \cos\beta)| \\[3ex]
+                    (1 + \cos\beta) * (1 - \cos\beta) = 1^2 - \cos^2\beta = 1 - \cos^2\beta ... Difference\:\: of\:\:
+                    Two\:\: Squares \\[3ex]
+                    \sin^2\beta + \cos^2\beta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \sin^2\beta = 1 - \cos^2\beta \\[3ex]
+                    \rightarrow |(1 + \cos\beta) * (1 - \cos\beta)| = |\sin^2\beta| \\[3ex]
+                    |\sin^2\beta| = |\sin\beta|^2 \\[3ex]
+                    = \ln|\sin\beta|^2 \\[3ex]
+                    = 2\ln|\sin\beta| ... Law\:\:5...Log \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (28.) $\dfrac{\cot\beta - 1}{\cot\beta + 1} = \dfrac{1 - \tan\beta}{1 + \tan\beta}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP28')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP28">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \dfrac{\cot\beta - 1}{\cot\beta + 1} \\[5ex]
+                    \cot\beta = \dfrac{\cos\beta}{\sin\beta} ... Quotient\:\: Identity \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    \cot\beta - 1 \\[3ex]
+                    = \dfrac{\cos\beta}{\sin\beta} - 1 \\[5ex]
+                    = \dfrac{\cos\beta}{\sin\beta} - \dfrac{\sin\beta}{\sin\beta} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\sin\beta} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    \cot\beta + 1 \\[3ex]
+                    = \dfrac{\cos\beta}{\sin\beta} + 1 \\[5ex]
+                    = \dfrac{\cos\beta}{\sin\beta} + \dfrac{\sin\beta}{\sin\beta} \\[5ex]
+                    = \dfrac{\cos\beta + \sin\beta}{\sin\beta} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\sin\beta} \div \dfrac{\cos\beta + \sin\beta}{\sin\beta} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\sin\beta} * \dfrac{\sin\beta}{\cos\beta + \sin\beta} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\cos\beta + \sin\beta} ...Simplified\:\: Result \\[5ex]
+                    \underline{RHS} \\[3ex]
+                    \dfrac{1 - \tan\beta}{1 + \tan\beta} \\[5ex]
+                    \tan\beta = \dfrac{\sin\beta}{\cos\beta} ... Quotient\:\: Identity \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    1 - \tan\beta \\[3ex]
+                    = 1 - \dfrac{\sin\beta}{\cos\beta} \\[5ex]
+                    = \dfrac{\cos\beta}{\cos\beta} - \dfrac{\sin\beta}{\cos\beta} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\cos\beta} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    1 + \tan\beta \\[3ex]
+                    = 1 + \dfrac{\sin\beta}{\cos\beta} \\[5ex]
+                    = \dfrac{\cos\beta}{\cos\beta} + \dfrac{\sin\beta}{\cos\beta} \\[5ex]
+                    = \dfrac{\cos\beta + \sin\beta}{\cos\beta} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\cos\beta} \div \dfrac{\cos\beta + \sin\beta}{\cos\beta} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\cos\beta} * \dfrac{\cos\beta}{\cos\beta + \sin\beta} \\[5ex]
+                    = \dfrac{\cos\beta - \sin\beta}{\cos\beta + \sin\beta} ...Same\:\: Simplified\:\: Result
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (29.) $5\cos^2\omega = \dfrac{4\cot\omega - \tan\omega}{\cot\omega + \tan\omega} + 1$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP29')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP29">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{4\cot\omega - \tan\omega}{\cot\omega + \tan\omega} + 1 \\[5ex]
+                    \underline{Augend} \\[3ex]
+                    \dfrac{4\cot\omega - \tan\omega}{\cot\omega + \tan\omega} \\[5ex]
+                    \cot\omega = \dfrac{1}{\tan\omega} ... Reciprocal\:\: Identity \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    4\cot\omega - \tan\omega \\[3ex]
+                    = 4\left(\dfrac{1}{\tan\omega}\right) - \tan\omega \\[5ex]
+                    = \dfrac{4}{\tan\omega} - \dfrac{\tan\omega}{1} \\[5ex]
+                    = \dfrac{4 - \tan\omega(\tan\omega)}{\tan\omega} \\[5ex]
+                    = \dfrac{4 - \tan^2\omega}{\tan\omega} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    \cot\omega + \tan\omega \\[3ex]
+                    = \dfrac{1}{\tan\omega} + \tan\omega \\[5ex]
+                    = \dfrac{1}{\tan\omega} + \dfrac{\tan\omega}{1} \\[5ex]
+                    = \dfrac{1 + \tan\omega(\tan\omega)}{\tan\omega} \\[5ex]
+                    = \dfrac{1 + \tan^2\omega}{\tan\omega} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{4 - \tan^2\omega}{\tan\omega} \div \dfrac{1 + \tan^2\omega}{\tan\omega} \\[5ex]
+                    = \dfrac{4 - \tan^2\omega}{\tan\omega} * \dfrac{\tan\omega}{1 + \tan^2\omega} \\[5ex]
+                    = \dfrac{4 - \tan^2\omega}{1 + \tan^2\omega} \\[5ex]
+                    1 + \tan^2\omega = \sec^2\omega ... Pythagorean\:\: Identity \\[3ex]
+                    = \dfrac{4 - \tan^2\omega}{\sec^2\omega} \\[5ex]
+                    = \dfrac{4}{\sec^2\omega} - \dfrac{\tan^2\omega}{\sec^2\omega} \\[5ex]
+                    \sec\omega = \dfrac{1}{\cos\omega} ... Reciprocal\:\: Identity \\[5ex]
+                    \therefore \sec^2\omega = \dfrac{1^2}{\cos^2\omega} = \dfrac{1}{\cos^2\omega} \\[5ex]
+                    \tan\omega = \dfrac{\sin\omega}{\cos\omega} ... Quotient\:\: Identity \\[5ex]
+                    \therefore \tan^2\omega = \dfrac{\sin^2\omega}{\cos^2\omega} \\[5ex]
+                    \dfrac{4}{\sec^2\omega} = 4 \div \sec^2\omega = 4 \div \dfrac{1}{\cos^2\omega} = 4 *
+                    \dfrac{\cos^2\omega}{1} = 4\cos^2\omega \\[5ex]
+                    \dfrac{\tan^2\omega}{\sec^2\omega} = \tan^2\omega \div \sec^2\omega =
+                    \dfrac{\sin^2\omega}{\cos^2\omega} \div \dfrac{1}{\cos^2\omega} = \dfrac{\sin^2\omega}{\cos^2\omega}
+                    * \dfrac{\cos^2\omega}{1} = \sin^2\omega \\[5ex]
+                    = 4\cos^2\omega - \sin^2\omega \\[3ex]
+                    \sin^2\omega + \cos^2\omega = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \rightarrow \sin^2\omega = 1 - \cos^2\omega \\[3ex]
+                    = 4\cos^2\omega - (1 - \cos^2\omega) \\[3ex]
+                    = 4\cos^2\omega - 1 + \cos^2\omega \\[3ex]
+                    = 5\cos^2\omega - 1 \\[3ex]
+                    \rightarrow RHS = 5\cos^2\omega - 1 + 1 \\[3ex]
+                    = 5\cos^2\omega \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (30.) $\dfrac{\cos^2\theta + \cot\theta}{\cos^2\theta - \cot\theta} = \dfrac{\cos^2\theta\tan\theta +
+                1}{\cos^2\theta\tan\theta - 1}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP30')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP30">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \dfrac{\cos^2\theta + \cot\theta}{\cos^2\theta - \cot\theta} \\[5ex]
+                    \cot\theta = \dfrac{\cos\theta}{\sin\theta} ... Quotient\:\: Identity \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    \cos^2\theta + \cot\theta \\[3ex]
+                    = \dfrac{\cos^2\theta}{1} + \dfrac{\cos\theta}{\sin\theta} \\[5ex]
+                    = \dfrac{\cos^2\theta\sin\theta + \cos\theta}{\sin\theta} \\[5ex]
+                    = \dfrac{\cos\theta(\cos\theta\sin\theta + 1)}{\sin\theta} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    \cos^2\theta - \cot\theta \\[3ex]
+                    = \dfrac{\cos^2\theta}{1} - \dfrac{\cos\theta}{\sin\theta} \\[5ex]
+                    = \dfrac{\cos^2\theta\sin\theta - \cos\theta}{\sin\theta} \\[5ex]
+                    = \dfrac{\cos\theta(\cos\theta\sin\theta - 1)}{\sin\theta} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{\cos\theta(\cos\theta\sin\theta + 1)}{\sin\theta} \div
+                    \dfrac{\cos\theta(\cos\theta\sin\theta - 1)}{\sin\theta} \\[5ex]
+                    = \dfrac{\cos\theta(\cos\theta\sin\theta + 1)}{\sin\theta} *
+                    \dfrac{\sin\theta}{\cos\theta(\cos\theta\sin\theta - 1)} \\[5ex]
+                    = \dfrac{\cos\theta\sin\theta + 1}{\cos\theta\sin\theta - 1} ... Simplified\:\: Result \\[5ex]
+                    \underline{RHS} \\[3ex]
+                    \dfrac{\cos^2\theta\tan\theta + 1}{\cos^2\theta\tan\theta - 1} \\[5ex]
+                    \tan\theta = \dfrac{\sin\theta}{\cos\theta} ... Quotient\:\: Identity \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    \cos^2\theta\tan\theta + 1 \\[3ex]
+                    = \cos^2\theta * \dfrac{\sin\theta}{\cos\theta} + 1 \\[5ex]
+                    = \cos\theta\sin\theta + 1 \\[3ex]
+                    \underline{Denominator} \\[3ex]
+                    \cos^2\theta\tan\theta - 1 \\[3ex]
+                    = \cos^2\theta * \dfrac{\sin\theta}{\cos\theta} - 1 \\[5ex]
+                    = \cos\theta\sin\theta - 1 \\[3ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{\cos\theta\sin\theta + 1}{\cos\theta\sin\theta - 1} ... Same\:\: Simplified\:\: Result
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (31.) $\sec\omega + \tan\omega = \dfrac{\cos\omega}{1 - \sin\omega}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP31')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP31">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    \sec\omega + \tan\omega \\[3ex]
+                    \sec\omega = \dfrac{1}{\cos\omega} ... Reciprocal\:\: Identity \\[5ex]
+                    \tan\omega = \dfrac{\sin\omega}{\cos\omega} ... Quotient\:\: Identity \\[5ex]
+                    = \dfrac{1}{\cos\omega} + \dfrac{\sin\omega}{\cos\omega} \\[5ex]
+                    = \dfrac{1 + \sin\omega}{\cos\omega} \\[5ex]
+                    $
+                    The $LHS$ is simplified <br>
+                    The $RHS$ is also simplified <br>
+                    But, they are not the same <br>
+                    So, we have to do something ... <br>
+                    Let us multiply the numerator and the denominator of the $LHS$ by $1 - \sin\omega$ <br><br>
+                    <i>
+                        Student: Why do we have to multiply it by $1 - \sin\omega$? <br>
+                        Why not multiply it with something else besides $1 - \sin\omega$? <br>
+                        Teacher: Good question <br>
+                        We can multiply it by anything provided we get the same result as the $RHS$ <br>
+                        However, I suggest $1 - \sin\omega$ because of the "Difference of Two Squares" as
+                        regards the numerator on the $LHS$ <br>
+                        Let us try it with that <br>
+                        If it does not give us the $RHS$, then we can find another term to multiply with.
+                    </i>
+                    <br><br>
+                    $
+                    = \dfrac{1 + \sin\omega}{\cos\omega} * \dfrac{1 - \sin\omega}{1 - \sin\omega} \\[5ex]
+                    = \dfrac{(1 + \sin\omega)(1 - \sin\omega)}{\cos\omega(1 - \sin\omega)} \\[5ex]
+                    (1 + \sin\omega)(1 - \sin\omega) = 1^2 - \sin^2\omega = 1 - \sin^2\omega ... Difference \:\:of\:\:
+                    Two\:\: Squares \\[3ex]
+                    \sin^2\omega + \cos^2\omega = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \rightarrow \cos^2\omega = 1 - \sin^2\omega \\[3ex]
+                    = \dfrac{\cos^2\omega}{\cos\omega(1 - \sin\omega)} \\[5ex]
+                    = \dfrac{\cos\omega}{1 - \sin\omega} \\[5ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (32.) $2\csc^2 \theta - 1 = \dfrac{1 + \cos^2 \theta}{\sin^2 \theta}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP32')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP32">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{1 + \cos^2 \theta}{\sin^2 \theta} \\[3ex]
+                    \dfrac{1}{\sin^2 \theta} + \dfrac{\cos^2 \theta}{\sin^2 \theta} \\[5ex]
+                    \dfrac{1}{\sin^2 \theta} = \csc^2 \theta ... Reciprocal\:\: Identity \\[5ex]
+                    \sin^2 \theta + \cos^2 \theta = 1 ...Pythagorean\:\: Identity \\[3ex]
+                    \cos^2 \theta = 1 - \sin^2 \theta \\[3ex]
+                    \rightarrow \csc^2 \theta + \dfrac{1 - \sin^2 \theta}{\sin^2 \theta} \\[5ex]
+                    = \csc^2 \theta + \dfrac{1}{\sin^2 \theta} - \dfrac{\sin^2 \theta}{\sin^2 \theta} \\[5ex]
+                    = \csc^2 \theta + \csc^2 \theta - 1 \\[3ex]
+                    = 2\csc^2 \theta - 1 \\[3ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-row w3-container">
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (33.) $1 - \cos5\alpha\cos3\alpha - \sin5\alpha\sin3\alpha = 2\sin^2\alpha$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP33')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP33">
+                    <br>
+                    $
+                    \underline{LHS} \\[3ex]
+                    1 - \cos5\alpha\cos3\alpha - \sin5\alpha\sin3\alpha \\[3ex]
+                    = 1 - (\cos5\alpha\cos3\alpha + \sin5\alpha\sin3\alpha) \\[3ex]
+                    \cos5\alpha\cos3\alpha + \sin5\alpha\sin3\alpha = \cos(5\alpha - 3\alpha) ... Difference\:\: Formula
+                    \\[3ex]
+                    = 1 - \cos(5\alpha - 3\alpha) \\[3ex]
+                    = 1 - \cos2\alpha \\[3ex]
+                    \cos2\alpha = \cos^2\alpha - \sin^2\alpha ... Double-Angle\:\: Formula \\[3ex]
+                    = 1 - (\cos^2\alpha - \sin^2\alpha) \\[3ex]
+                    = 1 - \cos^2\alpha + \sin^2\alpha \\[3ex]
+                    \sin^2\alpha + \cos^2\alpha = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    \rightarrow \cos^2\alpha = 1 - \sin^2\alpha \\[3ex]
+                    = 1 - (1 - \sin^2\alpha) + \sin^2\alpha \\[3ex]
+                    = 1 - 1 + \sin^2\alpha + \sin^2\alpha \\[3ex]
+                    = 2\sin^2\alpha \\[3ex]
+                    = RHS
+                    $
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-half w3-container">
+            <div class="w3-topbar w3-padding">
+                (34.) $\dfrac{1}{\cos^2\beta - \sin^2\beta} = \dfrac{\cot\beta + \tan\beta}{\cot\beta - \tan\beta}$
+                <br><br>
+                <button class="solutions" onclick="solutions('solutionTP34')">Show/Hide Answer</button>
+                <div class="result" id="solutionTP34">
+                    <br>
+                    $
+                    \underline{RHS} \\[3ex]
+                    \dfrac{\cot\beta + \tan\beta}{\cot\beta - \tan\beta} \\[5ex]
+                    \cot\beta = \dfrac{\cos\beta}{\sin\beta} ... Quotient\:\: Identity \\[5ex]
+                    \tan\beta = \dfrac{\sin\beta}{\cos\beta} ... Quotient\:\: Identity \\[5ex]
+                    \underline{Numerator} \\[3ex]
+                    \cot\beta + \tan\beta \\[3ex]
+                    = \dfrac{\cos\beta}{\sin\beta} + \dfrac{\sin\beta}{\cos\beta} \\[5ex]
+                    = \dfrac{\cos\beta(\cos\beta) + \sin\beta(\sin\beta)}{\sin\beta\cos\beta} \\[5ex]
+                    = \dfrac{\cos^2\beta + \sin^2\beta}{\sin\beta\cos\beta} \\[5ex]
+                    \cos^2\beta + \sin^2\beta = 1 ... Pythagorean\:\: Identity \\[3ex]
+                    = \dfrac{1}{\sin\beta\cos\beta} \\[5ex]
+                    \underline{Denominator} \\[3ex]
+                    \cot\beta - \tan\beta \\[3ex]
+                    = \dfrac{\cos\beta}{\sin\beta} - \dfrac{\sin\beta}{\cos\beta} \\[5ex]
+                    = \dfrac{\cos\beta(\cos\beta) - \sin\beta(\sin\beta)}{\sin\beta\cos\beta} \\[5ex]
+                    = \dfrac{\cos^2\beta - \sin^2\beta}{\sin\beta\cos\beta} \\[5ex]
+                    \dfrac{Numerator}{Denominator} \\[5ex]
+                    = \dfrac{1}{\sin\beta\cos\beta} \div \dfrac{\cos^2\beta - \sin^2\beta}{\sin\beta\cos\beta} \\[5ex]
+                    = \dfrac{1}{\sin\beta\cos\beta} * \dfrac{\sin\beta\cos\beta}{\cos^2\beta - \sin^2\beta} \\[5ex]
+                    = \dfrac{1}{\cos^2\beta - \sin^2\beta} \\[5ex]
+                    = LHS
+                    $
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- END PAGE CONTENT -->
+
+
+    <!-- Footer -->
+    <footer class="green w3-center w3-padding-24">
+        <a href="https://www.youtube.com/user/samuelchukwuemeka" title="Subscribe to my YouTube channel"
+            target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel" /></a>
+        <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img
+                src="images/twitter.png" alt="Follow me on twitter" /></a>
+        <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog"
+            target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog" /></a>
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-131335037-1' }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript"
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <p>&copy; 2018&nbsp;<a href="https://www.samuelchukwuemeka.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.
+        </p>
+    </footer>
+
+
+    <script src="scripts/escape.js"></script>
+    <script src="scripts/messages12.js"></script>
+    <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+</body>
+
+</html>

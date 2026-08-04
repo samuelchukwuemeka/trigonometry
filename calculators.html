@@ -1,0 +1,1614 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131335037-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-131335037-1');
+    </script>
+
+    <script data-ad-client="ca-pub-9463984700780669" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <meta name="google-site-verification" content="dq1XmHfXW0b3WlsawOYEk5yvgZDJ7CesBFu9QrSmHrs" />
+    <meta name="msvalidate.01" content="3EEBD9006AA36E19F3501CC431FCA6CB" />
+    <title>Trigonometry Calculators</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Samuel Dominic Chukwuemeka gives all the credit to our LORD and GOD JESUS CHRIST. We are experts in trigonometry and triangle calculators." />
+
+    <meta name="keywords" content="samuel, dominic, chukwuemeka, samuel dominic chukwuemeka, 
+              math, mathematics, trigonometry, analytic trigonometry, trigonometric functions, 
+              angles, triangles, geometry, trigonometric identities, inverse trigonometric functions, 
+              sine function, inverse sine function, cosine function, inverse cosine function, 
+              tangent function, inverse tangent function, composite functions, trigonometric equations,
+              trigonometric proofs, trigonometric formulas, trigonometric graphs, trigonometric inequalities, 
+              right triangles, sine law, cosine law, initial side, terminal side, coordinate plane, angular measures,
+              side lengths, vertex, standard position, coterminal angles, quadrantal angles, reference angles,
+              unit circle, planar figures, three-dimensional figures, cofunction, quadrants, inverse cosecant function, 
+              inverse secant function, inverse cotangent function, trigonometric expressions, 
+              right triangles, area of triangle, bearings, distances, directions, elevation, depression, angle of elevation, 
+              angle of depression, arc, length of arc, sector, segment, linear speed, angular speed, circular functions, 
+              area of sector, area of segment, formulas, calculators, base angle, vertex angle, apex angle, congruent triangles,
+              similar triangles, compass bearings, conventional representation" />
+
+    <link href="styles/calculators.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+    <!-- Modal container: Dismiss with Escape Key -->
+    <div id="modal" class="modal">
+        <!-- Modal content that does not propagate the click event -->
+        <div class="modal-content">
+            <p>For More Questions, Solutions, and Explanations on Trigonometry</p>
+            <p>
+                Please visit:
+                <a href="https://examssuccess.github.io/" target="_blank">
+                    https://examssuccess.github.io/
+                </a>
+            </p>
+            <p>Press <strong>ESC</strong> to dismiss this message.</p>
+        </div>
+    </div>
+
+    <!-- Quotes -->
+    <div class="w3-container w3-padding-64 cornsilk">
+        <!--
+            <div class="w3-content" id="solutionQuotes">
+                <p>
+                    <q>
+                        If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the 
+                        <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our FATHER in Heaven prayer)</a> <br>
+                        It is the <b>most powerful prayer</b>.
+                        A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                    </q> - Samuel Dominic Chukwuemeka 
+                </p>
+                <p id="messages11"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+                <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students.</b></q> - Samuel Chukwuemeka</p>
+            </div>
+            -->
+
+        <div class="w3-center">
+            <button class="solutions" onclick="solutions('solutionQuotes')">Quotes of the Day</button>
+        </div>
+        <div class="quotations w3-content" id="solutionQuotes">
+            <p>
+                <q>
+                    If there is one prayer that you should <b>pray/sing</b> every day and every hour, it is the
+                    <a href="https://www.samdomforpeace.com/Theology/prayer.html" target="_blank">LORD's prayer (Our
+                        FATHER in Heaven prayer)</a> <br>
+                    It is the <b>most powerful prayer</b>.
+                    A <b>pure heart</b>, a <b>clean mind</b>, and a <b>clear conscience</b> is necessary for it.
+                </q> - Samuel Dominic Chukwuemeka
+            </p>
+            <p id="messages11"><q>For in GOD we live, and move, and have our being.</q> - Acts 17:28</p>
+            <p><q>The <b>Joy</b> of a <b>Teacher</b> is the <b>Success</b> of his <b>Students.</b></q> - Samuel
+                Chukwuemeka</p>
+        </div>
+    </div>
+    <!-- End Quotes -->
+
+    <!-- Navigation Bar -->
+    <p class="w3-center w3-padding-16">
+        <a href="https://trigonometry.appspot.com" target="_blank"
+            class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Home</a>
+        <a href="#triangles" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Triangles</a>
+        <a href="#arcsSectorsSegmentsChords" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Arcs,
+            Sectors, Segments, and Chords</a>
+        <a href="#bearings" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Bearings/Directions</a>
+        <br><br>
+        <a href="#trigonometricExpressions" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Trigonometric
+            Expressions</a>
+        <a href="#trigonometricEquations" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Trigonometric
+            Equations</a>
+        <a href="#graphingCalculatorTI84" class="w3-button w3-black w3-round w3-padding w3-hover-yellow">TI-84 Graphing
+            Calculator</a>
+        <a href="https://www.chukwuemekasamuel.com/portfolios.html" target="_blank"
+            class="w3-button w3-black w3-round w3-padding w3-hover-yellow">Other Calculators</a>
+    </p>
+    <!-- End Navigation Bar -->
+
+    <!-- Greetings -->
+    <div class="w3-container w3-padding-64 bisque" id="welcome">
+        <h1>Trigonometry/Triangles Calculators</h1>
+        <p>
+            <a href="https://www.samuelchukwuemeka.com">
+                <img src="images/chukwuemekasamueldominic.jpg" alt="Samuel Dominic Chukwuemeka" class="image"
+                    title="Samuel Chukwuemeka">
+            </a>
+            <span id="greetings"></span> <br>
+            I greet you this day,
+            <script>document.write(Date() + ".");</script> <br>
+            <mark>Please solve the questions on your own before checking your answers with the calculators.</mark> <br>
+            I wrote the codes for some of the calculators using JavaScript, a client-side scripting language. <br>
+            The Wolfram Alpha widgets (many thanks to the developers) were used for some calculators. <br>
+            Comments, ideas, areas of improvement, questions, and constructive criticisms are welcome.
+            You may <a href="https://chukwuemekasamuel.weebly.com/" target="_blank">contact</a> me. <br>
+            If you are my student, please do not contact me here. Contact me via the school's system. <br>
+            Thank you for visiting.
+        </p>
+        <p><strong>Samuel Dominic Chukwuemeka</strong> (Samdom For Peace)
+            <span style="font-size: medium">B.Eng., A.A.T, M.Ed., M.S</span>
+        </p>
+    </div>
+    <!-- End Greetings -->
+
+
+    <!-- Page Content -->
+    <div class="w3-content" style="max-width:1500px">
+
+        <!-- Triangles -->
+        <div class="w3-container w3-hide-small w3-padding-16" id="triangles" style="max-width:1500px">
+            <div>
+                <h2>Calculators for Triangles</h2>
+
+                <!-- Tab 0 -->
+                <!--  -->
+                <div class="w3-container w3-white w3-padding-16">
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <h3>Right Triangles</h3>
+                        <div class="w3-half w3-section">
+                            <form id="triangleRT1st" class="borderOlive w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="olive w3-xlarge w3-padding-32"><u>Given:</u> Height, Base <br>
+                                        <u>To Find</u>: Hypotenuse, Area, Perimeter
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="heightRT1st">Height is </label><input type="text" name="heightRT1st"
+                                        id="heightRT1st" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="baseRT1st">Base is </label><input type="text" name="baseRT1st"
+                                        id="baseRT1st" class="terms" autocomplete="off" required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="triangleRT1st()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="hypotenuseRT1st">Hypotenuse is </label><input type="text"
+                                        name="hypotenuseRT1st" id="hypotenuseRT1st" class="terms" autocomplete="off"
+                                        readonly>
+                                </p>
+                                <p>
+                                    <label for="perimeterRT1st">Perimeter is </label><input type="text"
+                                        name="perimeterRT1st" id="perimeterRT1st" class="terms" autocomplete="off"
+                                        readonly>
+                                </p>
+                                <p>
+                                    <label for="areaRT1st">Area is </label><input type="text" name="areaRT1st"
+                                        id="areaRT1st" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="triangleRT2nd" class="borderGreen w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="green w3-xlarge w3-padding-32"><u>Given:</u> Height, Hypotenuse <br>
+                                        <u>To Find:</u> Base, Area, Perimeter
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="heightRT2nd">Height is </label><input type="text" name="heightRT2nd"
+                                        id="heightRT2nd" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="hypotenuseRT2nd">Hypotenuse is </label><input type="text"
+                                        name="hypotenuseRT2nd" id="hypotenuseRT2nd" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="triangleRT2nd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="baseRT2nd">Base is </label><input type="text" name="baseRT2nd"
+                                        id="baseRT2nd" class="terms" autocomplete="off" readonly>
+                                </p>
+                                <p>
+                                    <label for="perimeterRT2nd">Perimeter is </label><input type="text"
+                                        name="perimeterRT2nd" id="perimeterRT2nd" class="terms" autocomplete="off"
+                                        readonly>
+                                </p>
+                                <p>
+                                    <label for="areaRT2nd">Area is </label><input type="text" name="areaRT2nd"
+                                        id="areaRT2nd" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="triangleRT3rd" class="borderRed w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="red w3-xlarge w3-padding-32"><u>Given:</u> Base, Hypotenuse <br>
+                                        <u>To Find:</u> Height, Area, Perimeter
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="baseRT3rd">Base is </label><input type="text" name="baseRT3rd"
+                                        id="baseRT3rd" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="hypotenuseRT3rd">Hypotenuse is </label><input type="text"
+                                        name="hypotenuseRT3rd" id="hypotenuseRT3rd" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="triangleRT3rd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="heightRT3rd">Height is </label><input type="text" name="heightRT3rd"
+                                        id="heightRT3rd" class="terms" autocomplete="off" readonly>
+                                </p>
+                                <p>
+                                    <label for="perimeterRT3rd">Perimeter is </label><input type="text"
+                                        name="perimeterRT3rd" id="perimeterRT3rd" class="terms" autocomplete="off"
+                                        readonly>
+                                </p>
+                                <p>
+                                    <label for="areaRT3rd">Area is </label><input type="text" name="areaRT3rd"
+                                        id="areaRT3rd" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="triangleRT4th" class="borderDarkBlue w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="darkblue w3-xlarge w3-padding-32"><u>Given:</u> Area, Perimeter <br>
+                                        <u>To Find:</u> Hypotenuse, Base, Height
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="areaRT4th">Area is </label><input type="text" name="areaRT4th"
+                                        id="areaRT4th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="perimeterRT4th">Perimeter is </label><input type="text"
+                                        name="perimeterRT4th" id="perimeterRT4th" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="triangleRT4th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="hypotenuseRT4th">Hypotenuse is </label><input type="text"
+                                        name="hypotenuseRT4th" id="hypotenuseRT4th" class="terms" autocomplete="off"
+                                        readonly>
+                                </p>
+                                <p>
+                                    <label for="base1RT4th">Base is </label><input type="text" name="base1RT4th"
+                                        id="base1RT4th" class="terms" autocomplete="off" readonly>
+                                    OR
+                                    <label for="base2RT4th"> </label><input type="text" name="base2RT4th"
+                                        id="base2RT4th" class="terms" autocomplete="off" readonly>
+                                </p>
+                                <p>
+                                    <label for="height1RT4th">Height is </label><input type="text" name="height1RT4th"
+                                        id="height1RT4th" class="terms" autocomplete="off" readonly>
+                                    OR
+                                    <label for="height2RT4th"> </label><input type="text" name="height2RT4th"
+                                        id="height2RT4th" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End  -->
+                <!-- End Tab 0 -->
+
+                <br><br>
+
+                <!-- Tab 1 -->
+                <!--  -->
+                <div class="w3-container w3-white w3-padding-16">
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <h3>Triangles</h3>
+                        <p>
+                            <u>Please NOTE:</u> As applicable, all angles are in degrees. <br>
+                            If your angle is in radians, use this <a
+                                href="https://measurementsandunits.appspot.com/measurementsandunitsCalculators.html#angle"
+                                class="links" target="_blank">calculator</a> to convert it to degrees.
+                        </p>
+                        <div class="w3-half w3-section">
+                            <form id="sineLawASA" class="borderOlive w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="olive w3-xlarge w3-padding-32"><u>Given:</u> $ASA$ (Common Side of Two
+                                        Angles) <br>
+                                        <b>Sine Law</b> is used <br>
+                                        <u>To Find:</u> other details
+                                    </li>
+                                </ul>
+                                <p><label for="firstAngleASA">First Angle is </label><input type="text"
+                                        name="firstAngleASA" id="firstAngleASA" class="terms" autocomplete="off"
+                                        required> $^\circ$</p>
+                                <p><label for="commonSideASA">Common Side (side facing Third angle) is </label><input
+                                        type="text" name="commonSideASA" id="commonSideASA" class="terms"
+                                        autocomplete="off" required></p>
+                                <p><label for="secondAngleASA">Second Angle is </label><input type="text"
+                                        name="secondAngleASA" id="secondAngleASA" class="terms" autocomplete="off"
+                                        required> $^\circ$</p>
+
+                                <p class="w3-center">
+                                    <button onclick="sineLawASA()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <div id="thirdAngleASA"></div>
+                                <div id="firstSideASA"></div>
+                                <div id="secondSideASA"></div>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="sineLawSAA" class="borderGreen w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="green w3-xlarge w3-padding-32"><u>Given:</u> $SAA$ (Uncommon Side of Two
+                                        Angles) <br>
+                                        <b>Sine Law</b> is used <br>
+                                        <u>To Find:</u> other details
+                                    </li>
+                                </ul>
+                                <p><label for="firstSideSAA">First Side (Given Side) is </label><input type="text"
+                                        name="firstSideSAA" id="firstSideSAA" class="terms" autocomplete="off" required>
+                                </p>
+                                <p><label for="firstAngleSAA">First Angle (Angle facing First Side) is </label><input
+                                        type="text" name="firstAngleSAA" id="firstAngleSAA" class="terms"
+                                        autocomplete="off" required> $^\circ$</p>
+                                <p><label for="secondAngleSAA">Second Angle is </label><input type="text"
+                                        name="secondAngleSAA" id="secondAngleSAA" class="terms" autocomplete="off"
+                                        required> $^\circ$</p>
+
+                                <p class="w3-center">
+                                    <button onclick="sineLawSAA()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <div id="thirdAngleSAA"></div>
+                                <div id="secondSideSAA"></div>
+                                <div id="thirdSideSAA"></div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="sineLawSSA" class="borderRed w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="red w3-xlarge w3-padding-32"><u>Given:</u> $SSA$ (Angle is non-included)
+                                        - Ambiguous Case <br>
+                                        <b>Sine Law</b> is used <br>
+                                        <u>To Find:</u> other details
+                                    </li>
+                                </ul>
+                                <p><label for="firstSideSSA">First Side (Given Side) is </label><input type="text"
+                                        name="firstSideSSA" id="firstSideSSA" class="terms" autocomplete="off" required>
+                                </p>
+                                <p><label for="secondSideSSA">Second Side (Given Side) is </label><input type="text"
+                                        name="secondSideSSA" id="secondSideSSA" class="terms" autocomplete="off"
+                                        required></p>
+                                <p><label for="firstAngleSSA">First Angle (Angle facing First Side) is </label><input
+                                        type="text" name="firstAngleSSA" id="firstAngleSSA" class="terms"
+                                        autocomplete="off" required> $^\circ$</p>
+
+                                <p class="w3-center">
+                                    <button onclick="sineLawSSA()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <div id="secondAngleCase2SSA"></div>
+                                <div id="thirdAngleCase2SSA"></div>
+                                <div id="thirdSideCase2SSA"></div>
+                                <div id="secondAngleCase3SSA"></div>
+                                <div id="thirdAngleCase3SSA"></div>
+                                <div id="thirdSideCase3SSA"></div>
+                                <div id="secondAngle1Case4SSA"></div>
+                                <div id="thirdAngle1Case4SSA"></div>
+                                <div id="thirdSide1Case4SSA"></div>
+                                <br><br>
+                                <div id="secondAngle2Case4SSA"></div>
+                                <div id="thirdAngle2Case4SSA"></div>
+                                <div id="thirdSide2Case4SSA"></div>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="cosineLawSAS" class="borderDarkBlue w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="darkblue w3-xlarge w3-padding-32"><u>Given:</u> $SAS$ (Angle is included)
+                                        <br>
+                                        <b>Cosine Law</b> is used <br>
+                                        <u>To Find:</u> other details
+                                    </li>
+                                </ul>
+                                <p><label for="firstSideSAS">First Side (Given Side) is </label><input type="text"
+                                        name="firstSideSAS" id="firstSideSAS" class="terms" autocomplete="off" required>
+                                </p>
+                                <p><label for="secondAngleSAS">Second Angle (Angle between First Side and Third Side) is
+                                    </label><input type="text" name="secondAngleSAS" id="secondAngleSAS" class="terms"
+                                        autocomplete="off" required> $^\circ$</p>
+                                <p><label for="thirdSideSAS">Third Side (Given Side) is </label><input type="text"
+                                        name="thirdSideSAS" id="thirdSideSAS" class="terms" autocomplete="off" required>
+                                </p>
+
+                                <p class="w3-center">
+                                    <button onclick="cosineLawSAS()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+                                <div id="secondSideSAS"></div>
+                                <div id="firstAngleSAS"></div>
+                                <div id="thirdAngleSAS"></div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="cosineLawSSS" class="borderPurple w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="purple w3-xlarge w3-padding-32"><u>Given:</u> $SSS$ <br>
+                                        <b>Cosine Law</b> is used <br>
+                                        <u>To Find:</u> other details
+                                    </li>
+                                </ul>
+                                <p><label for="firstSideSSS">First Side is </label><input type="text"
+                                        name="firstSideSSS" id="firstSideSSS" class="terms" autocomplete="off" required>
+                                </p>
+                                <p><label for="secondSideSSS">Second Side is </label><input type="text"
+                                        name="secondSideSSS" id="secondSideSSS" class="terms" autocomplete="off"
+                                        required></p>
+                                <p><label for="thirdSideSSS">Third Side is </label><input type="text"
+                                        name="thirdSideSSS" id="thirdSideSSS" class="terms" autocomplete="off" required>
+                                </p>
+
+                                <p class="w3-center">
+                                    <button onclick="cosineLawSSS()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <div id="firstAngleSSS"></div>
+                                <div id="secondAngleSSS"></div>
+                                <div id="thirdAngleSSS"></div>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="triangleT2nd" class="borderCyan w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="cyan w3-xlarge w3-padding-32"><u>Given:</u> Three Sides <br>
+                                        Hero's Formula (Heron's Formula) is used to find the area. <br>
+                                        <u>To Find:</u> Perimeter, Area
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="firstSideT2nd">First Side is </label><input type="text"
+                                        name="firstSideT2nd" id="firstSideT2nd" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+                                <p>
+                                    <label for="secondSideT2nd">Second Side is </label><input type="text"
+                                        name="secondSideT2nd" id="secondSideT2nd" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+                                <p>
+                                    <label for="thirdSideT2nd">Third Side is </label><input type="text"
+                                        name="thirdSideT2nd" id="thirdSideT2nd" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="triangleT2nd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+                                <p>
+                                    <label for="perimeterT2nd">Perimeter is </label><input type="text"
+                                        name="perimeterT2nd" id="perimeterT2nd" class="terms" autocomplete="off"
+                                        readonly>
+                                </p>
+                                <p>
+                                    <label for="areaT2nd">Area is </label><input type="text" name="areaT2nd"
+                                        id="areaT2nd" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End  -->
+
+                <!-- End Tab 1 -->
+            </div>
+        </div>
+        <!-- End Triangles -->
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://trigonometry.appspot.com/calculators.html" class="w3-button w3-xlarge w3-circle w3-green"
+                style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+
+        <!-- Arcs, Sectors, Segments, and Chords -->
+        <div class="w3-container w3-hide-small w3-padding-16" id="arcsSectorsSegmentsChords" style="max-width:1500px">
+            <div>
+                <h2>Calculators for Arcs, Sectors, Segments, and Chords</h2>
+
+                <!-- Tab 2 -->
+                <div class="w3-container w3-white w3-padding-16">
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <h3>Arcs</h3>
+                        <p>
+                            <u>Please NOTE:</u> Due to the rounding of the JavaScript Math.PI value, I used $\pi$ as
+                            $\dfrac{22}{7}$
+                            rather than the Math.PI function.
+                        </p>
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc1st" class="borderOlive w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="olive w3-xlarge w3-padding-32"><u>Given:</u> Radius, Angle (in degrees)
+                                        <br>
+                                        <u>To Find</u>: Length of Arc
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusLOA1st">Radius is </label><input type="text" name="radiusLOA1st"
+                                        id="radiusLOA1st" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="angleLOA1st">Angle is </label><input type="text" name="angleLOA1st"
+                                        id="angleLOA1st" class="terms" autocomplete="off" required> $^\circ$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc1st()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="lengthLOA1st1">Length of Arc is </label><input type="text"
+                                        name="lengthLOA1st1" id="lengthLOA1st1" class="terms" autocomplete="off"
+                                        readonly>
+                                    OR
+                                    <label for="lengthLOA1st2"> </label><input type="text" name="lengthLOA1st2"
+                                        id="lengthLOA1st2" class="terms" autocomplete="off" readonly> $\pi$
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc2nd" class="borderGreen w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="green w3-xlarge w3-padding-32"><u>Given:</u> Radius, Length of Arc <br>
+                                        <u>To Find:</u> Angle (in degrees)
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusLOA2nd">Radius is </label><input type="text" name="radiusLOA2nd"
+                                        id="radiusLOA2nd" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="lengthLOA2nd1">Length of Arc is </label><input type="text"
+                                        name="lengthLOA2nd1" id="lengthLOA2nd1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="lengthLOA2nd2"> </label><input type="text" name="lengthLOA2nd2"
+                                        id="lengthLOA2nd2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc2nd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="angleLOA2nd">Angle is </label><input type="text" name="angleLOA2nd"
+                                        id="angleLOA2nd" class="terms" autocomplete="off" readonly> $^\circ$
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc3rd" class="borderBisque w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="bisque w3-xlarge w3-padding-32"><u>Given:</u> Angle (in degrees), Length
+                                        of Arc <br>
+                                        <u>To Find:</u> Radius
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="angleLOA3rd">Angle is </label><input type="text" name="angleLOA3rd"
+                                        id="angleLOA3rd" class="terms" autocomplete="off" required> $^\circ$
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="lengthLOA3rd1">Length of Arc is </label><input type="text"
+                                        name="lengthLOA3rd1" id="lengthLOA3rd1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="lengthLOA3rd2"> </label><input type="text" name="lengthLOA3rd2"
+                                        id="lengthLOA3rd2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc3rd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="radiusLOA3rd">Radius is </label><input type="text" name="radiusLOA3rd"
+                                        id="radiusLOA3rd" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc4th" class="borderDarkBlue w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="darkblue w3-xlarge w3-padding-32"><u>Given:</u> Radius, Angle (in
+                                        radians) <br>
+                                        <u>To Find</u>: Length of Arc
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusLOA4th">Radius is </label><input type="text" name="radiusLOA4th"
+                                        id="radiusLOA4th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="angleLOA4th1">Angle is </label><input type="text" name="angleLOA4th1"
+                                        id="angleLOA4th1" class="terms" autocomplete="off"> RAD
+                                    OR
+                                    <label for="angleLOA4th2"> </label><input type="text" name="angleLOA4th2"
+                                        id="angleLOA4th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc4th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="lengthLOA4th1">Length of Arc is </label><input type="text"
+                                        name="lengthLOA4th1" id="lengthLOA4th1" class="terms" autocomplete="off"
+                                        readonly>
+                                    OR
+                                    <label for="lengthLOA4th2"> </label><input type="text" name="lengthLOA4th2"
+                                        id="lengthLOA4th2" class="terms" autocomplete="off" readonly> $\pi$
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc5th" class="borderBurlyWood w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="burlywood w3-xlarge w3-padding-32"><u>Given:</u> Radius, Length of Arc
+                                        <br>
+                                        <u>To Find:</u> Angle (in radians)
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusLOA5th">Radius is </label><input type="text" name="radiusLOA5th"
+                                        id="radiusLOA5th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="lengthLOA5th1">Length of Arc is </label><input type="text"
+                                        name="lengthLOA5th1" id="lengthLOA5th1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="lengthLOA5th2"> </label><input type="text" name="lengthLOA5th2"
+                                        id="lengthLOA5th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc5th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="angleLOA5th1">Angle is </label><input type="text" name="angleLOA5th1"
+                                        id="angleLOA5th1" class="terms" autocomplete="off" readonly> RAD
+                                    OR
+                                    <label for="angleLOA5th2"> </label><input type="text" name="angleLOA5th2"
+                                        id="angleLOA5th2" class="terms" autocomplete="off" readonly> $\pi$
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc6th" class="borderRed w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="red w3-xlarge w3-padding-32"><u>Given:</u> Angle (in radians), Length of
+                                        Arc <br>
+                                        <u>To Find</u>: Radius
+                                    </li>
+                                </ul>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="angleLOA6th1">Angle is </label><input type="text" name="angleLOA6th1"
+                                        id="angleLOA6th1" class="terms" autocomplete="off"> RAD
+                                    OR
+                                    <label for="angleLOA6th2"> </label><input type="text" name="angleLOA6th2"
+                                        id="angleLOA6th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+                                <p>
+                                    <i>Please use the <u>corresponding</u> one field and <b>Reset</b> after each
+                                        calculation</i> <br>
+                                    <label for="lengthLOA6th1">Length of Arc is </label><input type="text"
+                                        name="lengthLOA6th1" id="lengthLOA6th1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="lengthLOA6th2"> </label><input type="text" name="lengthLOA6th2"
+                                        id="lengthLOA6th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc6th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="radiusLOA6th">Radius is </label><input type="text" name="radiusLOA6th"
+                                        id="radiusLOA6th" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc7th" class="borderPurple w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="purple w3-xlarge w3-padding-32"><u>Given:</u> Radius, Area of Sector <br>
+                                        <u>To Find:</u> Length of Arc
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusLOA7th">Radius is </label><input type="text" name="radiusLOA7th"
+                                        id="radiusLOA7th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="areaSectorLOA7th">Area of Sector is </label><input type="text"
+                                        name="areaSectorLOA7th" id="areaSectorLOA7th" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc7th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="lengthLOA7th">Length of Arc is </label><input type="text"
+                                        name="lengthLOA7th" id="lengthLOA7th" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="lengthArc8th" class="borderYellow w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="yellow w3-xlarge w3-padding-32"><u>Given:</u> Length of Arc, Area of
+                                        Sector <br>
+                                        <u>To Find</u>: Radius
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="lengthLOA8th">Length of Arc is </label><input type="text"
+                                        name="lengthLOA8th" id="lengthLOA8th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="areaSectorLOA8th">Area of Sector is </label><input type="text"
+                                        name="areaSectorLOA8th" id="areaSectorLOA8th" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="lengthArc8th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="radiusLOA8th">Radius is </label><input type="text" name="radiusLOA8th"
+                                        id="radiusLOA8th" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End  -->
+                <!-- End Tab 2 -->
+
+                <br><br>
+
+                <!-- Tab 3 -->
+                <div class="w3-container w3-white w3-padding-16">
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <h3>Sectors</h3>
+                        <p>
+                            <u>Please NOTE:</u> Due to the rounding of the JavaScript Math.PI value, I used $\pi$ as
+                            $\dfrac{22}{7}$
+                            rather than the Math.PI function.
+                        </p>
+                        <div class="w3-half w3-section">
+                            <form id="areaSector1st" class="borderBurlyWood w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="burlywood w3-xlarge w3-padding-32"><u>Given:</u> Radius, Angle (in
+                                        degrees) <br>
+                                        <u>To Find</u>: Area of Sector
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusAOS1st">Radius is </label><input type="text" name="radiusAOS1st"
+                                        id="radiusAOS1st" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="angleAOS1st">Angle is </label><input type="text" name="angleAOS1st"
+                                        id="angleAOS1st" class="terms" autocomplete="off" required> $^\circ$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector1st()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="areaAOS1st1">Area of Sector is </label><input type="text"
+                                        name="areaAOS1st1" id="areaAOS1st1" class="terms" autocomplete="off" readonly>
+                                    OR
+                                    <label for="areaAOS1st2"> </label><input type="text" name="areaAOS1st2"
+                                        id="areaAOS1st2" class="terms" autocomplete="off" readonly> $\pi$
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="areaSector2nd" class="borderOlive w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="olive w3-xlarge w3-padding-32"><u>Given:</u> Radius, Area of Sector <br>
+                                        <u>To Find:</u> Angle (in degrees)
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusAOS2nd">Radius is </label><input type="text" name="radiusAOS2nd"
+                                        id="radiusAOS2nd" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="areaAOS2nd1">Area of Sector is </label><input type="text"
+                                        name="areaAOS2nd1" id="areaAOS2nd1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="areaAOS2nd2"> </label><input type="text" name="areaAOS2nd2"
+                                        id="areaAOS2nd2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector2nd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="angleAOS2nd">Angle is </label><input type="text" name="angleAOS2nd"
+                                        id="angleAOS2nd" class="terms" autocomplete="off" readonly> $^\circ$
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="areaSector3rd" class="borderRed w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="red w3-xlarge w3-padding-32"><u>Given:</u> Angle (in degrees), Area of
+                                        Sector <br>
+                                        <u>To Find:</u> Radius
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="angleAOS3rd">Angle is </label><input type="text" name="angleAOS3rd"
+                                        id="angleAOS3rd" class="terms" autocomplete="off" required> $^\circ$
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="areaAOS3rd1">Area of Sector is </label><input type="text"
+                                        name="areaAOS3rd1" id="areaAOS3rd1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="areaAOS3rd2"> </label><input type="text" name="areaAOS3rd2"
+                                        id="areaAOS3rd2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector3rd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="radiusAOS3rd">Radius is </label><input type="text" name="radiusAOS3rd"
+                                        id="radiusAOS3rd" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="areaSector4th" class="borderBisque w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="bisque w3-xlarge w3-padding-32"><u>Given:</u> Radius, Angle (in radians)
+                                        <br>
+                                        <u>To Find</u>: Area of Sector
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusAOS4th">Radius is </label><input type="text" name="radiusAOS4th"
+                                        id="radiusAOS4th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="angleAOS4th1">Angle is </label><input type="text" name="angleAOS4th1"
+                                        id="angleAOS4th1" class="terms" autocomplete="off"> RAD
+                                    OR
+                                    <label for="angleAOS4th2"> </label><input type="text" name="angleAOS4th2"
+                                        id="angleAOS4th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector4th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="areaAOS4th1">Area of Sector is </label><input type="text"
+                                        name="areaAOS4th1" id="areaAOS4th1" class="terms" autocomplete="off" readonly>
+                                    OR
+                                    <label for="areaAOS4th2"> </label><input type="text" name="areaAOS4th2"
+                                        id="areaAOS4th2" class="terms" autocomplete="off" readonly> $\pi$
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="areaSector5th" class="borderSilver w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="silver w3-xlarge w3-padding-32"><u>Given:</u> Radius, Area of Sector <br>
+                                        <u>To Find:</u> Angle (in radians)
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusAOS5th">Radius is </label><input type="text" name="radiusAOS5th"
+                                        id="radiusAOS5th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="areaAOS5th1">Area of Sector is </label><input type="text"
+                                        name="areaAOS5th1" id="areaAOS5th1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="areaAOS5th2"> </label><input type="text" name="areaAOS5th2"
+                                        id="areaAOS5th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector5th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="angleAOS5th1">Angle is </label><input type="text" name="angleAOS5th1"
+                                        id="angleAOS5th1" class="terms" autocomplete="off" readonly> RAD
+                                    OR
+                                    <label for="angleAOS5th2"> </label><input type="text" name="angleAOS5th2"
+                                        id="angleAOS5th2" class="terms" autocomplete="off" readonly> $\pi$
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="areaSector6th" class="borderGreen w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="green w3-xlarge w3-padding-32"><u>Given:</u> Angle (in radians), Area of
+                                        Sector <br>
+                                        <u>To Find</u>: Radius
+                                    </li>
+                                </ul>
+                                <p>
+                                    <i>Please use <u>only</u> one field and <b>Reset</b> after each calculation</i> <br>
+                                    <label for="angleAOS6th1">Angle is </label><input type="text" name="angleAOS6th1"
+                                        id="angleAOS6th1" class="terms" autocomplete="off"> RAD
+                                    OR
+                                    <label for="angleAOS6th2"> </label><input type="text" name="angleAOS6th2"
+                                        id="angleAOS6th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+                                <p>
+                                    <i>Please use the <u>corresponding</u> one field and <b>Reset</b> after each
+                                        calculation</i> <br>
+                                    <label for="areaAOS6th1">Area of Sector is </label><input type="text"
+                                        name="areaAOS6th1" id="areaAOS6th1" class="terms" autocomplete="off">
+                                    OR
+                                    <label for="areaAOS6th2"> </label><input type="text" name="areaAOS6th2"
+                                        id="areaAOS6th2" class="terms" autocomplete="off"> $\pi$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector6th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="radiusAOS6th">Radius is </label><input type="text" name="radiusAOS6th"
+                                        id="radiusAOS6th" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="areaSector7th" class="borderDarkBlue w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="darkblue w3-xlarge w3-padding-32"><u>Given:</u> Radius, Length of Arc
+                                        <br>
+                                        <u>To Find:</u> Area of Sector
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="radiusAOS7th">Radius is </label><input type="text" name="radiusAOS7th"
+                                        id="radiusAOS7th" class="terms" autocomplete="off" required>
+                                </p>
+                                <p>
+                                    <label for="lengthArcAOS7th">Length of Arc is </label><input type="text"
+                                        name="lengthArcAOS7th" id="lengthArcAOS7th" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector7th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="areaAOS7th">Area of Sector is </label><input type="text"
+                                        name="areaAOS7th" id="areaAOS7th" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="areaSector8th" class="borderPurple w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="purple w3-xlarge w3-padding-32"><u>Given:</u> Area of Sector, Length of
+                                        Arc <br>
+                                        <u>To Find</u>: Radius
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="areaSectorAOS8th">Area of Sector is </label><input type="text"
+                                        name="areaSectorAOS8th" id="areaSectorAOS8th" class="terms" autocomplete="off"
+                                        required>
+                                </p>
+                                <p>
+                                    <label for="lengthAOS8th">Length of Arc is </label><input type="text"
+                                        name="lengthAOS8th" id="lengthAOS8th" class="terms" autocomplete="off" required>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="areaSector8th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="radiusAOS8th">Radius is </label><input type="text" name="radiusAOS8th"
+                                        id="radiusAOS8th" class="terms" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End  -->
+                <!-- End Tab 3 -->
+            </div>
+        </div>
+        <!-- End Arcs, Sectors, Segments, and Chords -->
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://trigonometry.appspot.com/calculators.html" class="w3-button w3-xlarge w3-circle w3-green"
+                style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+
+        <!-- Bearings and Distances -->
+        <div class="w3-container w3-hide-small w3-padding-16" id="bearings" style="max-width:1500px">
+            <div>
+                <h2>Calculators for Bearings</h2>
+
+                <!-- Tab 4 -->
+                <div class="w3-container w3-white w3-padding-16">
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <h3>Bearings</h3>
+                        <div class="w3-half w3-section">
+                            <form id="bearing1st" class="borderOlive w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="olive w3-xlarge w3-padding-32"><u>Given:</u> Bearing of Point B from
+                                        Point A <br>
+                                        <u>To Find</u>: Bearing of Point A from Point B
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="bearingBA1st">Bearing of Point B from Point A is </label><input
+                                        type="text" name="bearingBA1st" id="bearingBA1st" class="terms"
+                                        autocomplete="off" required> $^\circ$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="bearing1st()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="bearingAB1st">Bearing of Point A from Point B is </label><input
+                                        type="text" name="bearingAB1st" id="bearingAB1st" class="terms"
+                                        autocomplete="off" readonly> $^\circ$
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="bearing2nd" class="borderGreen w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="green w3-xlarge w3-padding-32"><u>Given:</u> Bearing <br>
+                                        <u>To Express:</u> as a Compass Bearing
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="bearingPoint2nd">Bearing is </label><input type="text"
+                                        name="bearingPoint2nd" id="bearingPoint2nd" class="terms" autocomplete="off"
+                                        required> $^\circ$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="bearing2nd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="compassBearingPoint2nd">Compass Bearing is </label>
+                                    <input type="text" name="compassBearingPoint2nd1" id="compassBearingPoint2nd1"
+                                        class="compass" autocomplete="off" readonly>
+                                    <input type="text" name="compassBearingPoint2nd2" id="compassBearingPoint2nd2"
+                                        class="terms" autocomplete="off" readonly> $^\circ$
+                                    <input type="text" name="compassBearingPoint2nd3" id="compassBearingPoint2nd3"
+                                        class="compass" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="w3-row-padding" style="margin-top:64px">
+                        <div class="w3-half w3-section">
+                            <form id="bearing3rd" class="borderRed w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="red w3-xlarge w3-padding-32"><u>Given:</u> Bearing of Point B from Point
+                                        A <br>
+                                        <u>To Express:</u> Bearing of Point A from Point B as a Compass Bearing
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="bearingBA3rd">Bearing of Point B from Point A is </label><input
+                                        type="text" name="bearingBA3rd" id="bearingBA3rd" class="terms"
+                                        autocomplete="off" required> $^\circ$
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="bearing3rd()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="compassBearingPoint3rd">Compass Bearing is </label>
+                                    <input type="text" name="compassBearingPoint3rd1" id="compassBearingPoint3rd1"
+                                        class="compass" autocomplete="off" readonly>
+                                    <input type="text" name="compassBearingPoint3rd2" id="compassBearingPoint3rd2"
+                                        class="terms" autocomplete="off" readonly> $^\circ$
+                                    <input type="text" name="compassBearingPoint3rd3" id="compassBearingPoint3rd3"
+                                        class="compass" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                        <div class="w3-half w3-section">
+                            <form id="bearing4th" class="borderBurlyWood w3-padding marginForm">
+                                <ul class="w3-ul w3-card w3-hover-shadow">
+                                    <li class="burlywood w3-xlarge w3-padding-32"><u>Given:</u> Bearing of Point B from
+                                        Point A (Conventional Representation) <br>
+                                        <u>To Express:</u> Bearing of Point A from Point B as a Compass Bearing
+                                    </li>
+                                </ul>
+                                <p>
+                                    <label for="conventionalBearingPoint4th">Bearing of Point B from Point A is </label>
+                                    <br>
+                                    <select id="cardinalPoint4th1" required>
+                                        <option value=""></option>
+                                        <option value="north" id="north">North</option>
+                                        <option value="south" id="south">South</option>
+                                    </select>
+                                    <input type="text" name="conventionalBearingPoint4th"
+                                        id="conventionalBearingPoint4th" class="terms" autocomplete="off" required>
+                                    $^\circ$
+                                    <select id="cardinalPoint4th2" required>
+                                        <option value=""></option>
+                                        <option value="east" id="east">East</option>
+                                        <option value="west" id="west">West</option>
+                                    </select>
+                                </p>
+
+                                <br>
+                                <p class="w3-center">
+                                    <button onclick="bearing4th()">Calculate</button>
+                                    <input type="reset" value="Reset">
+                                </p>
+                                <br>
+
+                                <p>
+                                    <label for="compassBearingPoint4th">Compass Bearing is </label>
+                                    <input type="text" name="compassBearingPoint4th1" id="compassBearingPoint4th1"
+                                        class="compass" autocomplete="off" readonly>
+                                    <input type="text" name="compassBearingPoint4th2" id="compassBearingPoint4th2"
+                                        class="terms" autocomplete="off" readonly> $^\circ$
+                                    <input type="text" name="compassBearingPoint4th3" id="compassBearingPoint4th3"
+                                        class="compass" autocomplete="off" readonly>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End  -->
+                <!-- End Tab 4 -->
+
+            </div>
+        </div>
+        <!-- End Bearings and Distances -->
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://trigonometry.appspot.com/calculators.html" class="w3-button w3-xlarge w3-circle w3-green"
+                style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+
+        <!-- Trigonometric Expressions -->
+        <div class="w3-container w3-hide-small w3-padding-16" id="trigonometricExpressions" style="max-width:1500px">
+            <div>
+                <h2>Calculators for Trigonometric Expressions</h2>
+                <div class="w3-bar w3-black">
+                    <button class="w3-bar-item w3-button tablink1"
+                        onclick="openLink1(event, 'TrigonometricExpressions');">Trigonometric Expressions</button>
+
+                </div>
+
+                <!-- Tab 6 -->
+                <!--  -->
+                <div id="TrigonometricExpressions" class="w3-container w3-white w3-padding-16 myLink1">
+                    <h3>Simplify Trigonometric Expressions</h3>
+                    <p>
+                        The calculator is a widget from Wolfram Alpha. <br>
+                        I tested it with some of the questions. It displayed <u>at least one correct answer</u> that I
+                        wanted, for <u>some</u> of the questions tested with it. <br>
+                        Hence, I put the widget on my website. You may check "most" of my solved examples with the
+                        calculator. At least one of its' answers to <u>some of the questions</u> is my solution. <br>
+                        The calculator is free. Please contact me if you see otherwise. <br>
+                        Thank you. <br><br>
+
+                        <u>To use the calculator, please:</u> <br>
+                        (1.) Type your expression in the textbox (the bigger textbox). <br>
+                        (2.) Type it according to the examples I listed. You may use $\theta$ or $x$<br>
+                        (3.) Delete the "default" expression in the textbox of the calculator. <br>
+                        (4.) Copy and paste the expression you typed, into the small textbox of the calculator. <br>
+                        (5.) Click the "Submit" button. <br>
+                        (6.) <b>Check to make sure that it is the correct expression you typed.</b> <br>
+                        (7.) Review the answers.
+                    </p>
+
+                    <ul class="w3-ul">
+                        <li class="yellow w3-hover-black w3-xlarge w3-padding-32 w3-center">Using the Trigonometric
+                            Expressions Calculator</li>
+                        <li class="w3-padding-16">There may be several answers. At least one of the answers is what I
+                            needed.</li>
+                        <li class="w3-padding-16">All outputs/answers are written as both integers and/or decimals; and
+                            integers and/or fractions.</li>
+                        <li class="w3-padding-16">Delete the "default" expression in the textbox of the calculator.</li>
+                        <li class="w3-padding-16">Type your expression in the bigger textbox first. Then, copy and paste
+                            it in the textbox of the calculator.</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\sin(-\theta) + \cos(-\theta)$ <b>as</b> sin(-theta) +
+                            cos(-theta) OR sin(-x) + cos(-x)</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\cos \theta \sin \theta(\tan \theta + \csc \theta)$
+                            <b>as</b> cos(theta) * sin(theta)(tan(theta) + csc(theta))
+                        </li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{1}{1 + \cos \theta} + \dfrac{1}{1 - \cos \theta}$
+                            <b>as</b> (1 / (1 + cos(theta)) +(1 / (1 - cos(theta))
+                        </li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{3\sin^2 \theta + \sin \theta - 10}{\sin \theta +
+                            2}$ <b>as</b> (3sin^2(theta) + sin(theta) - 10) / (sin(theta) + 2)</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{\sin^2 \theta - 25}{2\cos \theta + 1} *
+                            \dfrac{4\cos \theta + 2}{5\sin \theta + 25}$ <b>as</b> ((sin^2(theta) - 25) / (2cos(theta) +
+                            1)) * ((4cos(theta) + 2) / (5sin(theta) + 25))</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{8\cot \theta \csc \theta - 2\csc \theta}{4\cot
+                            \theta \csc \theta + 2\csc \theta}$ <b>as</b> (8cot(theta)csc(theta) - 2csc(theta)) /
+                            (4cot(theta)csc(theta) + 2csc(theta))</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{(\cos \theta - \sin \theta)(\cos \theta - \sin
+                            \theta) - 1}{\sin \theta \cos \theta}$ <b>as</b> ((cos(theta) - sin(theta))(cos(theta) -
+                            sin(theta)) - 1) / (sin(theta)cos(theta))</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\sin \theta(\sin \theta - 2\cos \theta) + \cos^2 \theta$
+                            <b>as</b> sin(theta)(sin(theta) - 2cos(theta)) + cos^2(theta)
+                        </li>
+                        <li class="w3-padding-16"><b>Type:</b> $\tan^3 \theta + 27$ <b>as</b> tan^3(theta) + 27</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{3 \sec \theta}{\csc \theta} + \dfrac{4\sin
+                            \theta}{\cos \theta}$ <b>as</b> (3sec(theta) / csc(theta)) + (4sin(theta) / cos(theta))</li>
+
+                        <li></li>
+                    </ul>
+
+                    <p class="w3-center">
+                        Simplify <label for="expression"></label><input type="text" name="expression" class="solve"
+                            id="expression" autocomplete="off" required>
+                    </p>
+
+                    <script type="text/javascript" id="WolframAlphaScript3f5ee243547dee91fbd053c1c4a845aa"
+                        src="//www.wolframalpha.com/widget/widget.jsp?id=3f5ee243547dee91fbd053c1c4a845aa&theme=red&output=iframe&width=700&height=500"></script>
+                </div>
+                <!-- End  -->
+
+
+
+                <!-- End Tab 6 -->
+            </div>
+        </div>
+        <!-- End Trigonometric Expressions -->
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://trigonometry.appspot.com/calculators.html" class="w3-button w3-xlarge w3-circle w3-green"
+                style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+
+        <!-- Trigonometric Equations -->
+        <div class="w3-container w3-hide-small w3-padding-16" id="trigonometricEquations" style="max-width:1500px">
+            <div>
+                <h2>Calculators for Trigonometric Equations</h2>
+                <div class="w3-bar w3-black">
+                    <button class="w3-bar-item w3-button tablink2"
+                        onclick="openLink2(event, 'TrigonometricEquations');">Trigonometric Equations</button>
+                </div>
+
+                <!-- Tab 7 -->
+                <div id="TrigonometricEquations" class="w3-container w3-white w3-padding-16 myLink2">
+                    <h3>Solve Trigonometric Equations</h3>
+                    <p>
+                        The calculator is a widget from Wolfram Alpha. <br>
+                        I tested it with some of the questions. It displayed the correct answers for the questions I
+                        tested with it. <br>
+                        Hence, I put the widget on my website. You may check my solved examples with the calculator.
+                        <br>
+                        The calculator is free. Please contact me if you see otherwise. <br>
+                        Thank you. <br><br>
+
+                        <u>To use the calculator, please:</u> <br>
+                        (1.) Type your equation in the textbox (the bigger textbox). <br>
+                        (2.) Type it according to the examples I listed. You may use $\theta$ or $x$<br>
+                        (3.) Delete the "default" expression in the textbox of the calculator. <br>
+                        (4.) Copy and paste the equation you typed, into the small textbox of the calculator. <br>
+                        (5.) Click the "Submit" button. <br>
+                        (6.) <b>Check to make sure that it is the correct equation you typed.</b> <br>
+                        (7.) Review the solutions. There are usually several solutions. The solutions are given in
+                        radians. <br>
+                        (8.) Depending on your question, for $[0, 2\pi]$ range; test each solution for at least the two
+                        smallest values of $n$; when $n = 0$ and when $n = 1$. <br>
+                        (9.) Test for other solutions as necessary. Then, convert the solutions to degrees as necessary.
+                    </p>
+
+                    <ul class="w3-ul">
+                        <li class="yellow w3-hover-black w3-xlarge w3-padding-32 w3-center">Using the Trigonometric
+                            Equations Calculator</li>
+                        <li class="w3-padding-16">There may be several answers. At least one of the answers is what I
+                            needed.</li>
+                        <li class="w3-padding-16">All outputs/answers are written as both integers and/or decimals; and
+                            integers and/or fractions.</li>
+                        <li class="w3-padding-16">Delete the "deafult" expression in the textbox of the calculator.</li>
+                        <li class="w3-padding-16">Type your expression in the bigger textbox first. Then, copy and paste
+                            it in the textbox of the calculator.</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\sin(-\theta) + \cos(-\theta)$ <b>as</b> sin(-theta) +
+                            cos(-theta) OR sin(-x) + cos(-x)</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\cos \theta \sin \theta(\tan \theta + \csc \theta)$
+                            <b>as</b> cos(theta) * sin(theta)(tan(theta) + csc(theta))
+                        </li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{1}{1 + \cos \theta} + \dfrac{1}{1 - \cos \theta}$
+                            <b>as</b> (1 / (1 + cos(theta)) +(1 / (1 - cos(theta))
+                        </li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{3\sin^2 \theta + \sin \theta - 10}{\sin \theta +
+                            2}$ <b>as</b> (3sin^2(theta) + sin(theta) - 10) / (sin(theta) + 2)</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{\sin^2 \theta - 25}{2\cos \theta + 1} *
+                            \dfrac{4\cos \theta + 2}{5\sin \theta + 25}$ <b>as</b> ((sin^2(theta) - 25) / (2cos(theta) +
+                            1)) * ((4cos(theta) + 2) / (5sin(theta) + 25))</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{8\cot \theta \csc \theta - 2\csc \theta}{4\cot
+                            \theta \csc \theta + 2\csc \theta}$ <b>as</b> (8cot(theta)csc(theta) - 2csc(theta)) /
+                            (4cot(theta)csc(theta) + 2csc(theta))</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{(\cos \theta - \sin \theta)(\cos \theta - \sin
+                            \theta) - 1}{\sin \theta \cos \theta}$ <b>as</b> ((cos(theta) - sin(theta))(cos(theta) -
+                            sin(theta)) - 1) / (sin(theta)cos(theta))</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\sin \theta(\sin \theta - 2\cos \theta) + \cos^2 \theta$
+                            <b>as</b> sin(theta)(sin(theta) - 2cos(theta)) + cos^2(theta)
+                        </li>
+                        <li class="w3-padding-16"><b>Type:</b> $\tan^3 \theta + 27$ <b>as</b> tan^3(theta) + 27</li>
+                        <li class="w3-padding-16"><b>Type:</b> $\dfrac{3 \sec \theta}{\csc \theta} + \dfrac{4\sin
+                            \theta}{\cos \theta}$ <b>as</b> (3sec(theta) / csc(theta)) + (4sin(theta) / cos(theta))</li>
+
+                        <li></li>
+                    </ul>
+
+                    <p class="w3-center">
+                        Simplify <label for="equation"></label><input type="text" class="solve" name="equation"
+                            id="equation" autocomplete="off" required>
+                    </p>
+
+                    <script type="text/javascript" id="WolframAlphaScript27b8624af4f632acc36d65c4a7eb715"
+                        src="//www.wolframalpha.com/widget/widget.jsp?id=27b8624af4f632acc36d65c4a7eb715&theme=red&output=iframe&width=700&height=500"></script>
+
+                </div>
+
+                <!-- End Tab 7 -->
+            </div>
+        </div>
+        <!-- End Trigonometric Equations -->
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://trigonometry.appspot.com/calculators.html" class="w3-button w3-xlarge w3-circle w3-green"
+                style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+
+        <!-- TI-84 Graphing Calculator -->
+        <div class="w3-container w3-hide-small w3-padding-16" id="graphingCalculatorTI84" style="max-width:1500px">
+            <div>
+                <h2>TI-84 Graphing Calculator</h2>
+                <div class="w3-bar w3-black">
+                    <button class="w3-bar-item w3-button tablink5"
+                        onclick="openLink5(event, 'GraphingCalculator');">TI-84 Graphing Calculator</button>
+                    <button class="w3-bar-item w3-button tablink5"
+                        onclick="openLink5(event, 'Resources');">Resources</button>
+                </div>
+
+                <!-- Tab 8 -->
+                <div id="GraphingCalculator" class="w3-container w3-white w3-padding-16 myLink5">
+                    <h3>Make a Table of Values, Graph and Trace Functions Using the TI-84 Calculator</h3>
+                    <p>
+                        <u>This calculator will:</u> <br>
+                        (1.) Form a Table of Values. <br>
+                        (2.) Graph equations/functions. <br>
+                        (3.) Trace functions. <br>
+                        (4.) Displays the Table of Values and the Graph in the same window. <br><br>
+
+
+                        <u>To use the calculator, please:</u> <br>
+                        (1.) Visit the link: <a
+                            href="http://media.pearsoncmg.com/aw/aw_mml_shared_1/gc_tutorial/start.html" target="_blank"
+                            class="w3-bar-item w3-button w3-hover-black links">TI-84 Calculator</a> <br>
+                        (2.) Click the "Graphing" folder. <br>
+                        (3.) Click the link of "whatever you want to do". <br>
+                        (4.) Follow the directions as illustrated by the "blinking light". <br>
+                    </p>
+                </div>
+
+
+                <!-- End Tab 8 -->
+            </div>
+        </div>
+        <!-- End TI-84 Graphing Calculator -->
+
+        <br><br><br><br>
+        <!-- Top of the Page -->
+        <div class="w3-container" style="position:relative">
+            <a href="https://trigonometry.appspot.com/calculators.html" class="w3-button w3-xlarge w3-circle w3-green"
+                style="position:absolute;top:-70px;right:24px">Top</a>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-center cornsilk w3-padding-48">
+        <a href="https://www.youtube.com/c/samueldominicchukwuemeka" title="Subscribe to my YouTube channel"
+            target="_blank"><img src="images/youtube.png" alt="Subscribe to my YouTube channel" /></a>
+        <a href="https://twitter.com/samdom4peace" title="Follow me on twitter" target="_blank"><img
+                src="images/twitter.png" alt="Follow me on twitter" /></a>
+        <a href="http://samueldominicchukwuemeka.blogspot.com/?view=flipcard" title="Subscribe and follow my blog"
+            target="_blank"><img src="images/blogger.jpg" alt="Subscribe and follow my blog" /></a>
+        <div id="google_translate_element"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({ pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-124647820-1' }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript"
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <p>&copy; 2019&nbsp;<a href="https://www.chukwuemekasamuel.com/" target="_blank">Samdom4Peace</a>&nbsp;Designs.
+        </p>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="scripts/escape.js"></script>
+    <script src="scripts/messages11.js"></script>
+    <script src="scripts/triangles.js"></script>
+    <script src="scripts/calculators.js"></script>
+    <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/4.0.0/math.min.js"></script>
+
+
+</body>
+
+</html>
