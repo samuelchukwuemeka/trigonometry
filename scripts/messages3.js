@@ -2,10 +2,10 @@
     Copyright 2018 - Samuel Dominic Chukwuemeka (SamDom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.chukwuemeka-samuel.appspot.com
+    
     www.samdomforpeace.com
-    www.trigonometry.appspot.com/rightTriangles.html
-    www.trigonometry.appspot.com/areaSectors.html
+    https://samuelchukwuemeka.github.io/trigonometry/rightTriangles.html
+    https://samuelchukwuemeka.github.io/trigonometry/areaSectors.html
     message 3
 */
 

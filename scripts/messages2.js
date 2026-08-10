@@ -2,10 +2,10 @@
     Copyright 2018 - Samuel Dominic Chukwuemeka (SamDom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.chukwuemeka-samuel.appspot.com
+    
     www.samdomforpeace.com
-    www.trigonometry.appspot.com/inversesTrigonometricFunctions.html
-    www.trigonometry.appspot.com/elevationDepression.html
+    https://samuelchukwuemeka.github.io/trigonometry/inversesTrigonometricFunctions.html
+    https://samuelchukwuemeka.github.io/trigonometry/elevationDepression.html
     message 2
 */
 

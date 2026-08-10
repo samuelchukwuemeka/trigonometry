@@ -2,11 +2,11 @@
     Copyright 2018 - Samuel Dominic Chukwuemeka (SamDom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.chukwuemeka-samuel.appspot.com
+    
     www.samdomforpeace.com
-    www.samdomforpeace.appspot.com
-    www.trigonometry.appspot.com
-    www.trigonometry.appspot.com/congruentandsimilartriangles.html
+    
+    https://samuelchukwuemeka.github.io/trigonometry/
+    https://samuelchukwuemeka.github.io/trigonometry/congruentandsimilartriangles.html
     message 9
 */
 

@@ -2,11 +2,11 @@
     Copyright 2018 - Samuel Dominic Chukwuemeka (SamDom For Peace)
     www.samuelchukwuemeka.com
     www.chukwuemekasamuel.com
-    www.chukwuemeka-samuel.appspot.com
+    
     www.samdomforpeace.com
-    www.samdomforpeace.appspot.com
-    www.trigonometry.appspot.com/linearAngularSpeeds.html
-    www.trigonometry.appspot.com/trigonometricFunctionsGraphs.html
+    
+    https://samuelchukwuemeka.github.io/trigonometry/linearAngularSpeeds.html
+    https://samuelchukwuemeka.github.io/trigonometry/trigonometricFunctionsGraphs.html
     message 8
 */
 

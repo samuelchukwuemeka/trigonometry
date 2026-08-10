@@ -1,10 +1,10 @@
 // Copyright 2018 - Samuel Dominic Chukwuemeka (Samdom For Peace)
 // www.samuelchukwuemeka.com
 // www.chukwuemekasamuel.com
-// www.chukwuemeka-samuel.appspot.com
+// 
 // www.samdomforpeace.com
-// www.samdomforpeace.appspot.com
-// www.trigonometry.appspot.com/triangles.html
+// 
+// https://samuelchukwuemeka.github.io/trigonometry/triangles.html
 
 "use strict";
 
